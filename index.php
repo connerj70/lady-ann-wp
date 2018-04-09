@@ -29,9 +29,18 @@ get_header();
 				<?php
 			endif;
 
+
+			$args = array(
+				"post_type" => array("post", "user_letters"),
+				// "posts_per_page" => 4,
+				'order'         => 'DESC'
+			);
+
+			$query = new WP_Query($args);
+
 			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+			while ( $query->have_posts() ) :
+				$query->the_post();
 
 				/*
 				 * Include the Post-Type-specific template for the content.

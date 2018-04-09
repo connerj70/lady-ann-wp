@@ -15,10 +15,9 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="footer_logo-container footer-margin">
-	            <img
-	                alt="pankaata logo"
-	                class="footer-logo"
-	            />
+			<?php
+	           the_custom_logo();
+	        ?>
             </div>
 
             <div class="footer_social-container footer-margin">

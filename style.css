@@ -1099,16 +1099,17 @@ object {
 .widget ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .widget li {
     list-style: none;
     text-decoration: none;
     color: #333;
-    margin-top: 30px;
-    min-width: 300px;
+    margin-top: 10px;
     display: flex;
-    justify-content: flex-end;
+    margin-left: 50px;
 }
 
 .widget li a:hover {
@@ -1121,7 +1122,10 @@ object {
     background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
+    width: 250px;
 }
+
+
 
 
 
@@ -1155,6 +1159,12 @@ object {
 }
 
 /* END CUSTOM FOOTER *****************************************/
+
+/* CUSTOM LETTER --------------------------------------------*/
+
+
+
+/*END CUSTOM LETTER -----------------------------------------*/
 
 /* MEDIA QUERIES */
 @media(max-width: 785px) {
