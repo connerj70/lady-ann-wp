@@ -1081,6 +1081,7 @@ object {
     border-right: 1px solid #d3d3d3;
     padding-right: 80px;
     padding-top: 50px;
+    min-height: 80vh;
 }
 
 /* END CUSTOM SITE CONTENT ***********************************/
@@ -1166,6 +1167,13 @@ object {
 
 /* CUSTOM LETTER --------------------------------------------*/
 
+.user_letters {
+    width: 700px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    padding-top: 0px;
+}
 
 
 /*END CUSTOM LETTER -----------------------------------------*/
