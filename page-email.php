@@ -17,9 +17,6 @@
 	}
 
 	if ( isset( $_POST['submitted'] ) ) {
-		echo $_POST['situation'];
-		echo $_POST['title'];
-		echo $_POST['from'];
 		$post_information = array(
 	    'post_title' => 'New Letter',
 	    'post_type' => 'user_letters',
@@ -31,6 +28,13 @@
 		__update_post_meta( $post_id, 'From', $_POST['from'] );
 		__update_post_meta( $post_id, 'Subject', $_POST['title'] );
 		__update_post_meta( $post_id, 'situation_box', $_POST['situation'] );
+
+		if(isset($_POST['anonymous'])) {
+			__update_post_meta( $post_id, 'anonymous', true );
+		} else {
+			__update_post_meta( $post_id, 'anonymous', false );
+		}
+
 
 		if ( $post_id ) {
 		    wp_redirect( home_url() );
@@ -110,6 +114,7 @@ get_header();
 		    	name="anonymous"
 		    	style="width: 30px; height: 30px; marginTop: 5px"
 		        type="checkbox"
+		        checked
 		    />
 		</div>
 
