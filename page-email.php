@@ -1,3 +1,44 @@
+<?php 
+
+	function __update_post_meta( $post_id, $field_name, $value = '' )
+	{
+	    if ( empty( $value ) OR ! $value )
+	    {
+	        delete_post_meta( $post_id, $field_name );
+	    }
+	    elseif ( ! get_post_meta( $post_id, $field_name ) )
+	    {
+	        add_post_meta( $post_id, $field_name, $value );
+	    }
+	    else
+	    {
+	        update_post_meta( $post_id, $field_name, $value );
+	    }
+	}
+
+	if ( isset( $_POST['submitted'] ) ) {
+		echo $_POST['situation'];
+		echo $_POST['title'];
+		echo $_POST['from'];
+		$post_information = array(
+	    'post_title' => 'New Letter',
+	    'post_type' => 'user_letters',
+	    'post_status' => 'pending'
+		);
+ 
+		$post_id = wp_insert_post( $post_information );
+
+		__update_post_meta( $post_id, 'From', $_POST['from'] );
+		__update_post_meta( $post_id, 'Subject', $_POST['title'] );
+		__update_post_meta( $post_id, 'situation_box', $_POST['situation'] );
+
+		if ( $post_id ) {
+		    wp_redirect( home_url() );
+		    exit;
+		}
+	}
+
+?>
 <?php
 /*
 *Template Name: Email Page
@@ -16,11 +57,12 @@ get_header();
    		<img class="lady-ann-logo2" src="<?php bloginfo('template_url'); ?>/assets/circular-logo.svg" />
     </div>
 
-    <form method="post" class="email-form">
+    <form action="" id="primaryPostForm" method="POST" class="email-form">
 
 	    <div class="email_sub-container">
 		    <h3>To:</h3>
 		    <input
+		    	id="to"
 		        name="to"
 		        type="text"
 		        placeholder="LadyAnn@Pankaata.com"
@@ -31,71 +73,51 @@ get_header();
 		 <div class="email_sub-container">
 	    <h3>From:</h3>
 		    <input
-		        name="cptFrom"
+		    	class="required"
+		        name="from"
+		        id="from"
 		        type="text"
 		        placeholder="Johndoe@gmail.com"
 			    />
 		</div>
 
-		 <div class="email_sub-container">
-	    <h3>Subject:</h3>
-	    <input
-	        name="cptTitle"
-	        type="text"
-	        placeholder="Hi Lady Ann."
+	 	<div class="email_sub-container">
+		    <h3>Subject:</h3>
+		    <input
+		    	class="required"
+		        name="title"
+		        id="title"
+		        type="text"
+		        placeholder="Hi Lady Ann."
+			    />
+		</div>
+
+		<div class="email_sub-container">
+		    <h3>Situation Box:</h3>
+		    <textarea
+		    	class="required"
+		    	id="situation"
+		        placeholder="Dear Lady. Ann"
+		        name="situation"
+		        rows="10"
+			    >
+			</textarea>
+		</div>
+
+		<div class="email_sub-container">
+		    <h3>Dear Lady. Ann, please keep me anonymous</h3>
+		    <input
+		    	name="anonymous"
+		    	style="width: 30px; height: 30px; marginTop: 5px"
+		        type="checkbox"
 		    />
 		</div>
 
-		<div class="email_sub-container">
-	    <h3>Situation Box:</h3>
-	    <textarea
-	        value={this.state.situation}
-	        placeholder="Dear Lady. Ann"
-	        name="cptContent"
-	        rows="10"
-		    ></textarea>
-		</div>
-
-		<div class="email_sub-container">
-	    <h3>Dear Lady. Ann, please keep me anonymous</h3>
-	    <input
-	    	name="cptAnon"
-	    	style="width: 30px; height: 30px; marginTop: 5px"
-	        type="checkbox"
-	    />
-		</div>
-
 		<div class="email_sub-container button-container">
-	    	<button type="submit" class="email-submit-btn">Send</button>
+			<input type="hidden" name="submitted" id="submitted" value="true" />
+		    <button type="submit" class="email-submit-btn">Send</button>
 	  	</div>
-
-	  	<input type="hidden" name="user_letters" id="post_type" value="user_letters" />
-	  	<?php wp_nonce_field( ‘cpt_nonce_action’, ‘cpt_nonce_field’ ); ?>
-	  	<?php 
-			if (isset( $_POST[‘cpt_nonce_field’] )
-
-			&& wp_verify_nonce( $_POST[‘cpt_nonce_field’], ‘cpt_nonce_action’ ) ) {
-
-			// create post object with the form values
-
-			$my_cptpost_args = array(
-
-			‘post_title’    => $_POST[‘cptTitle’],
-
-			‘post_content’  => $_POST[‘cptContent’],
-
-			‘post_status’   => ‘pending’,
-
-			‘post_type’ => $_POST[‘post_type’]
-
-			);
-
-			// insert the post into the database
-
-			$cpt_id = wp_insert_post( $my_cptpost_args, $wp_error);
-
-			}
-  		?>
+	  
   	</form>
 
   	
