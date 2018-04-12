@@ -57,11 +57,15 @@
 
 		<?php if(get_post_type() != 'post') : ?>
 
-			<h2><b>Subject:</b> <?php the_field('Subject');?></h2>
+			<!-- <h2><b>Subject:</b> <?php the_field('Subject');?></h2> -->
 			<?php if(get_field('anonymous')) : ?>
-				<h3><b>From:</b> <?php the_field('From');?></h3>
+				<h3>
+					<b>From:</b> 
+					<?php the_field('From');?>
+				</h3>
 			<?php endif; ?>
-			<p><b>Situation:</b> <?php the_field('situation_box');?></p>
+			<h4>Situation:</h4>
+			<p><?php the_field('situation_box');?></p>
 
 		<?php endif; ?>
 
