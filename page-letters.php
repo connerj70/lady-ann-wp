@@ -34,10 +34,13 @@ get_header();
 			<a class="letter_link" href=<?php the_permalink()?>>
 			  	<div class="letter_container">
 			        <div>
-			            <h2><?php the_title() ?></h2>
-			            <h4> <?php the_time( get_option( 'date_format' )) ?></h4>
-			            <h3><?php the_field("situation_box") ?></h3>
+			            <h1 class="letter-title"><?php the_title() ?></h1>
+	        			<h4 class="letter-date"> <?php the_time( get_option( 'date_format' )) ?></h4>
+			            <h3><?php echo advanced_custom_field_excerpt(); ?></h3>
 			        </div>
+			        <footer class="entry-footer">
+						<?php lady_ann_entry_footer(); ?>
+					</footer><!-- .entry-footer -->
 	           	</div>
        		</a>
 
