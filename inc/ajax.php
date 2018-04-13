@@ -21,7 +21,7 @@ function load_more() {
 		"posts_per_page" => 4,
 	));
 
-	while ( $query->have_posts() ) :
+	if($query->have_posts()) : while ( $query->have_posts() ) :
 				$query->the_post();
 
 				if(get_post_type() == "post") {
@@ -37,6 +37,14 @@ function load_more() {
 				 */
 
 			endwhile;
+
+	else : 
+
+	echo "<script type='text/javascript'>alert('all posts loaded');</script>";
+
+		endif;
+
+
 
 			the_posts_navigation();
 

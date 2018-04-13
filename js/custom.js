@@ -5,10 +5,13 @@ jQuery(document).ready(function($) {
     /* Load More Post AJAX */
 
     $('.load').on("click", function() {
+
     	var that = $(this);
     	var page = $(this).data('page');
     	var newPage = page + 1;
     	var ajaxUrl = $(this).data('url');
+
+    	that.addClass('loading').find('.load-text').slideUp(320);
 
     	$.ajax({
     		url : ajaxUrl,
@@ -23,7 +26,7 @@ jQuery(document).ready(function($) {
     		success: function(response) {
     			that.data('page', newPage);
     			$('.site-main').append(response);
-
+    			that.removeClass('loading').find(".load-text").slideDown(320);
     		}
     	});
 
