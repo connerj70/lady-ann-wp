@@ -19,6 +19,7 @@ function load_more() {
 		'paged' => $paged,
 		'order'         => 'DESC',
 		"posts_per_page" => 4,
+		'post_status' => "publish"
 	));
 
 	if($query->have_posts()) : while ( $query->have_posts() ) :

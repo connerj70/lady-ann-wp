@@ -22,7 +22,8 @@ get_header();
 		<?php
 
 			$args = array(
-				"post_type" => "user_letters"
+				"post_type" => "user_letters",
+				'post_status' => "publish"
 			);
 
 			$query = new WP_Query($args);

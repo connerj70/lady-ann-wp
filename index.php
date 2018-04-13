@@ -33,7 +33,8 @@ get_header();
 			$args = array(
 				"post_type" => array("post", "user_letters"),
 				"posts_per_page" => 4,
-				'order'         => 'DESC'
+				'order'         => 'DESC',
+				'post_status' => "publish"
 			);
 
 			$query = new WP_Query($args);
