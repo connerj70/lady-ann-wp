@@ -1223,10 +1223,12 @@ object {
     font-size: 40px;
     margin: 0;
     font-weight: 100;
+
 }
 
 .entry-title a {
     text-decoration: none;
+    color: #333;
 }
 
 .entry-meta {

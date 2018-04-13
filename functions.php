@@ -144,7 +144,7 @@ function lady_ann_scripts() {
 
 	wp_enqueue_script( 'lady-ann-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js', array(), '20151215', true );
+	wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), '20151215', true );
 
 	// validation
 	wp_register_script( 'validation', 'http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js', array( 'jquery' ) );
@@ -177,6 +177,7 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+require get_template_directory() . '/inc/ajax.php';
 
 /**
  * Load Jetpack compatibility file.
@@ -184,4 +185,24 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+
+/* INFINITE SCROLLING AJAX * -----------------------------*/
+
+
+
+
+/*INFINITE SCROLLING AJAX END ----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
 

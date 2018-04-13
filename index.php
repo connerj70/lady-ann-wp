@@ -17,7 +17,6 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
 		<?php
 
 		if ( have_posts() ) :
@@ -33,7 +32,7 @@ get_header();
 
 			$args = array(
 				"post_type" => array("post", "user_letters"),
-				// "posts_per_page" => 4,
+				"posts_per_page" => 4,
 				'order'         => 'DESC'
 			);
 
@@ -65,8 +64,9 @@ get_header();
 
 		endif;
 		?>
-
+		
 		</main><!-- #main -->
+		<button class="load" data-page="1" data-url="<?php echo admin_url('admin-ajax.php');?>">Load More</button>
 	</div><!-- #primary -->
 
 <?php

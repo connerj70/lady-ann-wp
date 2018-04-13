@@ -18,7 +18,7 @@
 
 	if ( isset( $_POST['submitted'] ) ) {
 		$post_information = array(
-	    'post_title' => 'New Letter',
+	    'post_title' => $_POST['title'],
 	    'post_type' => 'user_letters',
 	    'post_status' => 'pending'
 		);
