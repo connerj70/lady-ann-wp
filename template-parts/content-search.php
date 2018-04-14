@@ -25,7 +25,32 @@
 	<?php lady_ann_post_thumbnail(); ?>
 
 	<div class="entry-summary">
-		<?php the_excerpt(); ?>
+		<?php
+		if(get_post_type() == 'post') {
+			the_content( sprintf(
+				wp_kses(
+					/* translators: %s: Name of current post. Only visible to screen readers */
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'lady-ann' ),
+					array(
+						'span' => array(
+							'class' => array(),
+						),
+					)
+				),
+				get_the_title()
+
+			) );
+		} else {
+			 echo advanced_custom_field_excerpt();
+		}
+
+		
+
+		wp_link_pages( array(
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'lady-ann' ),
+			'after'  => '</div>',
+		) );
+		?>
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
