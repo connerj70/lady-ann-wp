@@ -22,8 +22,9 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				lady_ann_posted_on();
-				lady_ann_posted_by();
+				the_time( get_option( 'date_format' ))
+				// lady_ann_posted_on();
+				// lady_ann_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
