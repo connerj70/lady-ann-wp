@@ -1246,6 +1246,15 @@ input:focus {outline:none;}
     width: 250px;
 }
 
+.widget_media_image {
+    position: sticky;
+    top: 350px;
+}
+
+.widget_media_image img {
+    float: right;
+}
+
 
 
 
