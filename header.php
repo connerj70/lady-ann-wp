@@ -54,5 +54,17 @@ wp_nav_menu(array(
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
+	<div class="secondary-nav-container">
+		<div class="secondary-nav">
+			<div class="secondary-nav-left">
+			</div>
+			<div class="secondary-nav-right">
+				<?php get_search_form(); ?>
+				<!-- <input type="text" class="secondary-nav-search search-hidden"/> -->
+				<!-- <i class="fas fa-search search-icon"></i> -->
+			</div>
+		</div>
+	</div>
+
 	<div id="content" class="site-content">
 		<div class="inner-site-content">
