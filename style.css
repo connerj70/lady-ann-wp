@@ -1352,6 +1352,11 @@ input:focus {outline:none;}
     font-size: 25px;
 }
 
+.entry-content p {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*END CUSTOM LETTER -----------------------------------------*/
 
