@@ -1135,6 +1135,13 @@ input:focus {outline:none;}
     right: 15px;
 }
 
+.notification-bell {
+    position: absolute;
+    right: 30px;
+    top: 65px;
+    color: var(--pink);
+}
+
 
 /* END CUSTOM HEADER *****************************************/
 
@@ -1402,7 +1409,7 @@ input:focus {outline:none;}
         background: #fff;
         position:absolute;
         left:0;
-        top: 140px;
+        top: 126px;
         display: flex;
         flex-direction: column;
         height: 300px;

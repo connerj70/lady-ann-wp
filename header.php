@@ -51,6 +51,7 @@ wp_nav_menu(array(
     'menu_id' => 'primary-menu',
 ));
 ?>
+<i class="fas fa-bell notification-bell"></i>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
