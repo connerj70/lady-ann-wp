@@ -50,6 +50,7 @@ wp_nav_menu(array(
     'theme_location' => 'menu-1',
     'menu_id' => 'primary-menu',
 ));
+
 ?>
 <i class="fas fa-bell notification-bell"></i>
 		</nav><!-- #site-navigation -->
@@ -58,6 +59,7 @@ wp_nav_menu(array(
 	<div class="secondary-nav-container">
 		<div class="secondary-nav">
 			<div class="secondary-nav-left">
+				<button class="custom-mail-btn">Subscribe</button>
 			</div>
 			<div class="secondary-nav-right">
 				<?php get_search_form(); ?>

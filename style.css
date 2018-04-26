@@ -1138,8 +1138,18 @@ input:focus {outline:none;}
 .notification-bell {
     position: absolute;
     right: 30px;
-    top: 65px;
+    top: 32px;
     color: var(--pink);
+}
+
+.custom-mail-btn {
+    padding: 10px 40px;
+    font-size: 22px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 5px 0px #333;
+    cursor:pointer;
 }
 
 
@@ -1409,7 +1419,7 @@ input:focus {outline:none;}
         background: #fff;
         position:absolute;
         left:0;
-        top: 126px;
+        top: 140px;
         display: flex;
         flex-direction: column;
         height: 300px;
