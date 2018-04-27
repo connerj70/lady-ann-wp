@@ -1068,6 +1068,18 @@ object {
     justify-content: space-between;
 }
 
+.main-menu-bell-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-menu-1-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
 .menu-item a:hover {
     color: var(--pink);
 }
@@ -1136,9 +1148,9 @@ input:focus {outline:none;}
 }
 
 .notification-bell {
-    position: absolute;
+   /* position: absolute;
     right: 30px;
-    top: 32px;
+    top: 32px;*/
     color: var(--pink);
 }
 
@@ -1151,6 +1163,7 @@ input:focus {outline:none;}
     box-shadow: 1px 1px 5px 0px #333;
     cursor:pointer;
 }
+
 
 
 /* END CUSTOM HEADER *****************************************/

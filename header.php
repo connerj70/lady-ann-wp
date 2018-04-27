@@ -45,14 +45,16 @@ if ($lady_ann_description || is_customize_preview()):
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
-			<?php
-wp_nav_menu(array(
-    'theme_location' => 'menu-1',
-    'menu_id' => 'primary-menu',
-));
-
-?>
-<i class="fas fa-bell notification-bell"></i>
+	<div class="main-menu-bell-container">
+		<?php
+			wp_nav_menu(array(
+			    'theme_location' => 'menu-1',
+			    'menu_id' => 'primary-menu',
+			));
+		?>
+		<i class="fas fa-bell notification-bell"></i>
+	</div>
+	
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
