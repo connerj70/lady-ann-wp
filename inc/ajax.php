@@ -22,7 +22,11 @@ function load_more() {
 		'post_status' => "publish"
 	));
 
-	if($query->have_posts()) : while ( $query->have_posts() ) :
+	if($query->have_posts()) : 
+
+		echo '<div class="page-limit" data-page="/page/' . $paged .'">';
+
+		while ( $query->have_posts() ) :
 				$query->the_post();
 
 				if(get_post_type() == "post") {
@@ -38,7 +42,7 @@ function load_more() {
 				 */
 
 			endwhile;
-
+		echo '</div>';
 	else : 
 
 	echo "<script type='text/javascript'>alert('all posts loaded');</script>";
