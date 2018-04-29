@@ -1338,10 +1338,11 @@ input:focus {outline:none;}
 /* CUSTOM LETTER --------------------------------------------*/
 
 .user_letters {
-    width: 650px;
+    max-width: 650px;
     background: #fff;
     padding: 30px;
     border-radius: 6px;
+    width: 100%;
 }
 
 .entry-title {
@@ -1531,6 +1532,20 @@ input:focus {outline:none;}
     .content-area {
         border: none;
         padding-right: 0px;
+    }
+}
+
+@media(max-width: 450px) {
+    .secondary-nav-container {
+        padding: 10px;
+    }
+
+    .secondary-nav-search {
+        width: 150px;
+    }
+
+    .main-navigation {
+        padding-right: 10px;
     }
 }
 
