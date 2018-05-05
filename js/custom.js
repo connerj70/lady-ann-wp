@@ -35,6 +35,7 @@ jQuery(document).ready(function($) {
 
     
         $(window).scroll(function() {
+            console.log('hi')
                if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/') {
                 timesLoaded += 1;
                 if(timesLoaded === 3) {
