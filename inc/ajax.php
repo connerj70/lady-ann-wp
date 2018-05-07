@@ -12,6 +12,7 @@ add_action('wp_ajax_load_more', 'load_more');
 
 function load_more() {
 	//load more posts
+	echo 
 	$paged = $_POST['page'] + 1;
 	
 	$query = new WP_Query(array(
@@ -45,7 +46,7 @@ function load_more() {
 		echo '</div>';
 	else : 
 
-	echo "<script type='text/javascript'>alert('all posts loaded');</script>";
+	echo "<script type='text/javascript'>console.log('loaded')</script>";
 
 		endif;
 

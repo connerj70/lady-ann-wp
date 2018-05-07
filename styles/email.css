@@ -42,11 +42,17 @@
 	cursor: pointer;
 	width: 100%;
 	padding: 20px 20px;
-	background: var(--pink);
-	color: #fff;
-	font-size: 20px;
+	background: #fff;
+	color: #333;
+	font-size: 25px;
 	box-shadow: 1px 1px 1px #d3d3d3;
 	border-bottom: 30px;
+	transition: all 0.2s;
+}
+
+.email-submit-btn:hover{
+	background: var(--pink);
+	color: #fff;
 }
 
 .lady-ann-logo2-container {

@@ -35,7 +35,6 @@ jQuery(document).ready(function($) {
 
     
         $(window).scroll(function() {
-            console.log('hi')
                if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/') {
                 timesLoaded += 1;
                 if(timesLoaded === 3) {
@@ -66,6 +65,25 @@ jQuery(document).ready(function($) {
                 });
                }
         }.bind($(".load")));
+
+        $(".search-icon").on("click", function() {
+            console.log('hi');
+            if($('.secondary-nav-search').hasClass('secondary-nav-search-visible')) {
+                $(".secondary-nav-search").removeClass('secondary-nav-search-visible');
+            } else {
+                $('.secondary-nav-search').addClass('secondary-nav-search-visible')
+                $(".secondary-nav-search").focus();
+                $(".search-icon").addClass("search-icon-hidden");
+                $(".search-times").removeClass("search-times-hidden");
+                $(".search-times").addClass("search-times");
+            }
+        });
+
+        $(".search-times").on("click", function() {
+            $(".secondary-nav-search").removeClass("secondary-nav-search-visible");
+            $(".search-times").addClass('search-times-hidden');
+            $(".search-icon").removeClass("search-icon-hidden");
+        });
 
     /* scroll functions */
     // var lastScroll = 0;

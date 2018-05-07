@@ -57,10 +57,10 @@ get_header();
 
 	<img class="email-banner" src="<?php bloginfo('template_url'); ?>/assets/banner.png" />
 
-	<div class="lady-ann-logo2-container">
+	<!-- <div class="lady-ann-logo2-container">
    		<img class="lady-ann-logo2" src="<?php bloginfo('template_url'); ?>/assets/circular-logo.svg" />
     </div>
-
+ -->
     <form action="" id="primaryPostForm" method="POST" class="email-form">
 
 	    <div class="email_sub-container">

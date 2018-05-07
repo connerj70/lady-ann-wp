@@ -52,7 +52,9 @@ if ($lady_ann_description || is_customize_preview()):
 			    'menu_id' => 'primary-menu',
 			));
 		?>
+		<button class="custom-mail-btn">Subscribe</button>
 		<!-- <i class="fas fa-bell notification-bell"></i> -->
+
 	</div>
 	
 		</nav><!-- #site-navigation -->
@@ -61,7 +63,7 @@ if ($lady_ann_description || is_customize_preview()):
 	<div class="secondary-nav-container">
 		<div class="secondary-nav">
 			<div class="secondary-nav-left">
-				<button class="custom-mail-btn">Subscribe</button>
+				<!-- <button class="custom-mail-btn">Subscribe</button> -->
 			</div>
 			<div class="secondary-nav-right">
 				<?php get_search_form(); ?>

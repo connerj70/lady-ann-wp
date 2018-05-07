@@ -32,6 +32,20 @@
 	<?php lady_ann_post_thumbnail(); ?>
 
 	<div class="entry-content">
+		<?php if(get_post_type() != 'post') : ?>
+
+			<!-- <h2><b>Subject:</b> <?php the_field('Subject');?></h2> -->
+			<?php if(get_field('anonymous')) : ?>
+				<h3>
+					<b>From:</b> 
+					<?php the_field('From');?>
+				</h3>
+			<?php endif; ?>
+			<h4>Situation:</h4>
+			<p><?php the_field('situation_box');?></p>
+
+		<?php endif; ?>
+		
 		<?php
 		the_content( sprintf(
 			wp_kses(
@@ -55,24 +69,11 @@
 		) );
 		?>
 
-		<?php if(get_post_type() != 'post') : ?>
-
-			<!-- <h2><b>Subject:</b> <?php the_field('Subject');?></h2> -->
-			<?php if(get_field('anonymous')) : ?>
-				<h3>
-					<b>From:</b> 
-					<?php the_field('From');?>
-				</h3>
-			<?php endif; ?>
-			<h4>Situation:</h4>
-			<p><?php the_field('situation_box');?></p>
-
-		<?php endif; ?>
+		
 
 
 		
 	</div><!-- .entry-content -->
-
 	<footer class="entry-footer">
 		<?php lady_ann_entry_footer(); ?>
 	</footer><!-- .entry-footer -->

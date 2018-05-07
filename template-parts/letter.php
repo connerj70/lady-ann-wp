@@ -26,8 +26,8 @@
 			) );
 	        ?>
 	    </div>
-	    <footer class="entry-footer">
-			<?php lady_ann_entry_footer(); ?>
+	    <footer class="letter-footer">
+	    	<?php get_comments();?>
 		</footer><!-- .entry-footer -->
 	</div>
 

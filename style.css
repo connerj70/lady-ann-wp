@@ -959,7 +959,7 @@ object {
 }
 
 .custom-logo-link img {
-    width: 80%;
+    width: 65%;
     padding-top: 20px;
 }
 
@@ -1048,7 +1048,7 @@ object {
     justify-content: space-between;
     padding: 0px 50px;
     background: #fff;
-    height: 80px;
+    height: 60px;
     margin: 0 auto;
     max-width: 1100px;
 }
@@ -1111,7 +1111,33 @@ object {
     padding: 5px 10px !important;
     color: #fff !important;
     transition: all 0.3s;
-    width: 200px;
+    opacity: 0;
+    width: 0px;
+}
+
+.secondary-nav-search::placeholder {
+    color: #fff;
+}
+
+.secondary-nav-search-visible {
+    opacity: 1 !important;
+    width: 800px !important;
+}
+
+.search-icon-hidden {
+    display: none !important;
+}
+
+.search-times-hidden {
+    display: none !important;
+}
+
+.search-times {
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 15px;
 }
 
 .search-field {
@@ -1155,10 +1181,11 @@ input:focus {outline:none;}
 }
 
 .custom-mail-btn {
-    padding: 10px 40px;
-    font-size: 22px;
-    background-color: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: var(--pink);
     color: #fff;
+    margin-left: 20px;
     border: none;
     box-shadow: 1px 1px 5px 0px #333;
     cursor:pointer;
@@ -1238,7 +1265,7 @@ input:focus {outline:none;}
 }
 
 .widget ul li:nth-child(even) {
-    border-left: 15px solid var(--pink);
+    border-left: 15px solid #333;
 }
 
 .widget li {
@@ -1248,7 +1275,7 @@ input:focus {outline:none;}
     margin-top: 10px;
     display: flex;
     /*margin-left: 50px;*/
-    border-left: 15px solid #333;
+    border-left: 15px solid var(--pink);
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     
@@ -1343,6 +1370,7 @@ input:focus {outline:none;}
     padding: 30px;
     border-radius: 6px;
     width: 100%;
+    min-width: 600px;
 }
 
 .entry-title {
@@ -1423,6 +1451,15 @@ input:focus {outline:none;}
 
 
 /* END LOAD MORE BUTTON -------------------------------------*/
+
+/*
+POST META
+
+*/
+
+.entry-footer {
+    display: none;
+}
 
 
 /* MEDIA QUERIES */
@@ -1515,6 +1552,7 @@ input:focus {outline:none;}
     .custom-logo-link img {
         padding-left: 15%;
         padding-top: 35px;
+        width: 65%;
     }
 }
 

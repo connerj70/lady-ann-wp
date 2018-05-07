@@ -113,6 +113,8 @@ function lady_ann_content_width() {
 }
 add_action( 'after_setup_theme', 'lady_ann_content_width', 0 );
 
+
+
 /**
  * Register widget area.
  *
