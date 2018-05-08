@@ -17,7 +17,7 @@
 	<div class="letter_container">
 	    <div>
 	        <h1 class="letter-title"><?php the_title() ?></h1>
-	        <h4 class="letter-date"> <?php the_time( get_option( 'date_format' )) ?></h4>
+	        <h4 class="letter-date"> <span class="span-line"></span><?php the_time( get_option( 'date_format' )) ?> <span class="span-line"></span></h4>
 	        <?php echo advanced_custom_field_excerpt(); ?>
 	        <?php 
 			wp_link_pages( array(

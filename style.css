@@ -1378,7 +1378,7 @@ input:focus {outline:none;}
     margin: 0;
     font-weight: 100;
     font-family: "Kievit", sans-serif;
-
+    text-align: center;
 }
 
 .entry-title a {
@@ -1389,6 +1389,8 @@ input:focus {outline:none;}
 .entry-meta {
     margin-bottom: 15px;
     color: #76828a;
+    display: flex;
+    justify-content: center;
 }
 
 .entry-content h2 {
