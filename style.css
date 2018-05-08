@@ -1465,6 +1465,10 @@ POST META
     width: 40px;
 }
 
+.a2a_kit.a2a_kit_size_.addtoany_list>.letter_link {
+    display:none;
+}
+
 
 /* MEDIA QUERIES */
 
