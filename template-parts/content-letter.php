@@ -32,6 +32,7 @@
 	<?php lady_ann_post_thumbnail(); ?>
 
 	<div class="entry-content">
+		HII
 		<?php if(get_post_type() != 'post') : ?>
 
 			<!-- <h2><b>Subject:</b> <?php the_field('Subject');?></h2> -->
@@ -45,7 +46,7 @@
 			<p><?php the_field('situation_box');?></p>
 
 		<?php endif; ?>
-		
+
 		<?php
 		the_content( sprintf(
 			wp_kses(
