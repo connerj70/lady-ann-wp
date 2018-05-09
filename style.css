@@ -1471,6 +1471,14 @@ POST META
     display:none;
 }
 
+.fa-arrow-right:before {
+    font-size: 30px;
+}
+
+.fa-arrow-left:before {
+    font-size: 30px;
+}
+
 
 /* MEDIA QUERIES */
 

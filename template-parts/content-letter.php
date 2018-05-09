@@ -67,7 +67,7 @@
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'lady-ann'),
 			'after'  => '</div>',
 			'next_or_number' => 'number',
-			'separator' => " "
+			'separator' => " ",
 		) );
 		?>
 
