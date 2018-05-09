@@ -32,7 +32,6 @@
 	<?php lady_ann_post_thumbnail(); ?>
 
 	<div class="entry-content">
-		HII
 		<?php if(get_post_type() != 'post') : ?>
 
 			<!-- <h2><b>Subject:</b> <?php the_field('Subject');?></h2> -->
@@ -65,8 +64,10 @@
 		
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'lady-ann' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'lady-ann'),
 			'after'  => '</div>',
+			'next_or_number' => 'number',
+			'separator' => " "
 		) );
 		?>
 

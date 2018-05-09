@@ -1474,13 +1474,25 @@ POST META
 
 /* MEDIA QUERIES */
 
-@media(max-width: 600px) {
+@media(max-width: 900px) {
+    .menu-item a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 810px) {
+    .menu-item a {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 740px) {
 
     #primary-menu[aria-expanded = "true"] {
         background: #fff;
         position:absolute;
         left:0;
-        top: 140px;
+        top: 408px;
         display: flex;
         flex-direction: column;
         height: 300px;
@@ -1523,6 +1535,11 @@ POST META
         padding: 30px;
         margin-bottom: 30px;
         box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
+        min-width: 0px;
+        width: 100%;
+    }
+
+    .type-user_letters {
         min-width: 0px;
         width: 100%;
     }
