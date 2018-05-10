@@ -1486,6 +1486,10 @@ POST META
     .menu-item a {
         font-size: 12px;
     }
+
+    .secondary-nav-search-visible {
+        width: 500px !important;
+    }
 }
 
 @media(max-width: 810px) {
@@ -1605,6 +1609,12 @@ POST META
     .content-area {
         border: none;
         padding-right: 0px;
+    }
+}
+
+@media(max-width: 600px) {
+    .secondary-nav-search-visible {
+        width: 350px !important;
     }
 }
 
