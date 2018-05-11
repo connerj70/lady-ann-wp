@@ -960,7 +960,7 @@ object {
 
 .custom-logo-link img {
     width: 65%;
-    padding-top: 20px;
+    padding-top: 28px;
 }
 
 /*--------------------------------------------------------------
@@ -1103,6 +1103,7 @@ object {
 
 .secondary-nav-right {
     position: relative;
+    width: 100%;
 }
 
 .secondary-nav-search {
@@ -1113,6 +1114,9 @@ object {
     transition: all 0.3s;
     opacity: 0;
     width: 0px;
+    background: var(--pink);
+    color: black;
+    border: 1px solid #fff !important;
 }
 
 .secondary-nav-search::placeholder {
@@ -1121,7 +1125,8 @@ object {
 
 .secondary-nav-search-visible {
     opacity: 1 !important;
-    width: 800px !important;
+    width: 100% !important;
+    border-radius: 0 !important;
 }
 
 .search-icon-hidden {
@@ -1337,9 +1342,17 @@ input:focus {outline:none;}
     margin-top: 20px;
 }
 
+.footer_social-container {
+    padding-right: 55px;
+}
+
 .footer_social-container a {
     text-decoration: none;
     margin-right: 20px;
+}
+
+.footer_links-container {
+    padding-right: 55px;
 }
 
 .footer_links-container ul {
@@ -1359,6 +1372,8 @@ input:focus {outline:none;}
 .entry-footer span a {
     text-decoration: none;
 }
+
+
 
 /* END CUSTOM FOOTER *****************************************/
 
@@ -1391,6 +1406,7 @@ input:focus {outline:none;}
     color: #76828a;
     display: flex;
     justify-content: center;
+    font-weight: 100 !important;
 }
 
 .entry-content h2 {
@@ -1479,16 +1495,17 @@ POST META
     font-size: 30px;
 }
 
+.fa-times:before {
+    position: relative;
+    top: 3px;
+}
+
 
 /* MEDIA QUERIES */
 
 @media(max-width: 900px) {
     .menu-item a {
         font-size: 12px;
-    }
-
-    .secondary-nav-search-visible {
-        width: 500px !important;
     }
 }
 
@@ -1563,9 +1580,17 @@ POST META
         padding: 0;
     }
 
+    .footer_links-container {
+        padding-right: 25px;
+    }
+
     .footer_links-container ul li {
         margin-top: 10px;
         text-align: center;
+    }
+
+    .footer_social-container {
+        padding-right: 25px;
     }
 
     .letter_container {
@@ -1612,19 +1637,9 @@ POST META
     }
 }
 
-@media(max-width: 600px) {
-    .secondary-nav-search-visible {
-        width: 350px !important;
-    }
-}
-
 @media(max-width: 450px) {
     .secondary-nav-container {
         padding: 10px;
-    }
-
-    .secondary-nav-search {
-        width: 150px;
     }
 
     .main-navigation {

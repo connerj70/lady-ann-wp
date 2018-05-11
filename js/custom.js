@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
 
     
         $(window).scroll(function() {
-               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/') {
+               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/lady-ann/') {
                 timesLoaded += 1;
                 if(timesLoaded === 3) {
                     $(".load").css("display", "flex");
@@ -58,6 +58,7 @@ jQuery(document).ready(function($) {
                         console.log(err);
                     },
                     success: function(response) {
+
                         that.data('page', newPage);
                         $('.site-main').append(response);
                         that.removeClass('loading').find(".load-text").slideDown(320);
@@ -67,7 +68,6 @@ jQuery(document).ready(function($) {
         }.bind($(".load")));
 
         $(".search-icon").on("click", function() {
-            console.log('hi');
             if($('.secondary-nav-search').hasClass('secondary-nav-search-visible')) {
                 $(".secondary-nav-search").removeClass('secondary-nav-search-visible');
             } else {
@@ -83,6 +83,13 @@ jQuery(document).ready(function($) {
             $(".secondary-nav-search").removeClass("secondary-nav-search-visible");
             $(".search-times").addClass('search-times-hidden');
             $(".search-icon").removeClass("search-icon-hidden");
+        });
+
+        $(".addtoany_share_save_container").prepend("Share: ");
+
+        $(".code-block-1").append("<span class='close-ad'>X</span>");
+        $(".close-ad").on("click", function() {
+            $(".code-block-1").css("display", "none");
         });
 
     /* scroll functions */

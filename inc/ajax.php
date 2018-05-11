@@ -12,7 +12,7 @@ add_action('wp_ajax_load_more', 'load_more');
 
 function load_more() {
 	//load more posts
-	echo 
+	// echo 
 	$paged = $_POST['page'] + 1;
 	
 	$query = new WP_Query(array(
