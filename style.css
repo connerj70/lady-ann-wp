@@ -1500,6 +1500,14 @@ POST META
     top: 3px;
 }
 
+.close-ad {
+    position: absolute !important;
+    color: #fff !important;
+    top: 5% !important;
+    right: 6% !important;
+    cursor: pointer !important;
+}
+
 
 /* MEDIA QUERIES */
 
