@@ -52,7 +52,7 @@ if ($lady_ann_description || is_customize_preview()):
 			    'menu_id' => 'primary-menu',
 			));
 		?>
-		<button class="custom-mail-btn">Subscribe</button>
+		<!-- <button class="custom-mail-btn">Subscribe</button> -->
 		<!-- <i class="fas fa-bell notification-bell"></i> -->
 
 	</div>

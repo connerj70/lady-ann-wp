@@ -1233,6 +1233,7 @@ input:focus {outline:none;}
     margin-bottom: 30px;
     box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
     min-width: 560px;
+    max-width: 650px;
 }
 
 .type-user_letters {
@@ -1241,6 +1242,7 @@ input:focus {outline:none;}
     padding: 30px;
     margin-bottom: 30px;
     box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
+    max-width: 650px;
 }
 
 /* END CUSTOM SITE CONTENT ***********************************/
@@ -1503,7 +1505,7 @@ POST META
 .close-ad {
     position: absolute !important;
     color: #fff !important;
-    top: 5% !important;
+    top: 1% !important;
     right: 6% !important;
     cursor: pointer !important;
 }
