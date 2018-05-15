@@ -58,14 +58,21 @@ jQuery(document).ready(function($) {
                         console.log(err);
                     },
                     success: function(response) {
-
                         that.data('page', newPage);
                         $('.site-main').append(response);
                         that.removeClass('loading').find(".load-text").slideDown(320);
+
+                        $('body').trigger( 'post-load' );
                     }
                 });
                }
         }.bind($(".load")));
+
+        jQuery( document.body ).on( 'post-load', function () {
+                // New content has been added to the page.
+                console.log("LOADED")
+        } );
+
 
         $(".search-icon").on("click", function() {
             if($('.secondary-nav-search').hasClass('secondary-nav-search-visible')) {

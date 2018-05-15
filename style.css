@@ -1680,6 +1680,12 @@ POST META
 
 /* END MEDIA QUERIES */
 
+.addtoany_share_save_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
