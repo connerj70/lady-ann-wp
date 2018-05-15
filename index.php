@@ -68,8 +68,7 @@ get_header();
 		
 		</main><!-- #main -->
 		<button class="load" data-page="1" data-url="<?php echo admin_url('admin-ajax.php');?>">
-			<span><i class="fas fa-arrow-circle-down load-more-arrow"></i></span>
-			<span class="load-text">Load More</span>
+			<span class="load-text">NEXT <i class="fas fa-arrow-right next-arrow"></i></span>
 		</button>
 	</div><!-- #primary -->
 

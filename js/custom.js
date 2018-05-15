@@ -35,9 +35,9 @@ jQuery(document).ready(function($) {
 
     
         $(window).scroll(function() {
-               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/') {
+               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/lady-ann/') {
                 timesLoaded += 1;
-                if(timesLoaded === 3) {
+                if(timesLoaded === 4) {
                     $(".load").css("display", "flex");
                 } 
                 var that = $(this);
@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
             $(".search-icon").removeClass("search-icon-hidden");
         });
 
-        $(".addtoany_share_save_container").prepend("Share: ");
+        $(".addtoany_share_save_container").prepend("SHARE: ");
 
         $(".code-block-1").append("<span class='close-ad'>X</span>");
         $(".close-ad").on("click", function() {
