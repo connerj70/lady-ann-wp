@@ -94,7 +94,7 @@ jQuery(document).ready(function($) {
             $(".search-icon").removeClass("search-icon-hidden");
         });
 
-        $(".addtoany_share_save_container").prepend("SHARE: ");
+        // $(".addtoany_share_save_container").prepend("SHARE: ");
 
         $(".code-block-1").append("<span class='close-ad'>X</span>");
         $(".close-ad").on("click", function() {

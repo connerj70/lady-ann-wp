@@ -1688,6 +1688,10 @@ POST META
     align-items: center;
 }
 
+.addtoany_header {
+    margin: 0 !important;
+}
+
 
 
 
