@@ -1249,19 +1249,22 @@ input:focus {outline:none;}
 
 /* CUSTOM SIDEBAR CONTENT ------------------------------------*/
 
-.widget {
+/*.widget {
     position: sticky;
     position: -webkit-sticky;
     position: -moz-sticky;
     position: -ms-sticky;
     position: -o-sticky;
     top: 70px;
-}
+}*/
 
 .widget-area {
-    margin-top: 50px;
+    margin-top: 42px;
     margin-bottom: 400px !important;
     padding-left: 50px;
+    position: sticky;
+    top: -175px;
+    height: 1000px;
 }
 
 .widget-title {
@@ -1318,10 +1321,10 @@ input:focus {outline:none;}
     box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
 }
 
-.widget_media_image {
+/*.widget_media_image {
     position: sticky;
     top: 350px;
-}
+}*/
 
 .widget_media_image img {
     float: right;
