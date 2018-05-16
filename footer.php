@@ -15,9 +15,10 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="footer_logo-container footer-margin">
-			<?php
+			<!-- <?php
 	           the_custom_logo();
-	        ?>
+	        ?> -->
+	        <img class="footer-logo" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
             </div>
 
             <div class="footer_social-container footer-margin">

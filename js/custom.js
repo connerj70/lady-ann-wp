@@ -62,7 +62,9 @@ jQuery(document).ready(function($) {
                         $('.site-main').append(response);
                         that.removeClass('loading').find(".load-text").slideDown(320);
 
-                        $('body').trigger( 'post-load' );
+                        jQuery( document.body ).trigger( 'post-load' );
+
+
                     }
                 });
                }
@@ -70,7 +72,7 @@ jQuery(document).ready(function($) {
 
         jQuery( document.body ).on( 'post-load', function () {
                 // New content has been added to the page.
-                console.log("LOADED")
+                console.log("POST LOAD TRIGGERED")
         } );
 
 
