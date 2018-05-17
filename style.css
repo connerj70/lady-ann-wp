@@ -1546,7 +1546,7 @@ POST META
 .close-ad {
     position: absolute !important;
     color: #fff !important;
-    top: 1% !important;
+    top: 3% !important;
     right: 6% !important;
     cursor: pointer !important;
 }
