@@ -18,7 +18,7 @@ get_header();
 
 			get_template_part( 'template-parts/content-letter', get_post_type() );
 
-			the_post_navigation(array('prev_text' => "<i class='fas fa-arrow-left'></i>", 'next_text' => "<i class='fas fa-arrow-right'></i>"));
+			the_post_navigation(array('prev_text' => "<span style='font-size: 45px;'> &larr; </span>", 'next_text' => "<span style='font-size: 45px;'> &rarr; </span>"));
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :

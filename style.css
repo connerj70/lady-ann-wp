@@ -775,6 +775,14 @@ a:active {
     width: 50%;
 }
 
+.nav-next a {
+    text-decoration: none !important;
+}
+
+.nav-previous a {
+    text-decoration: none !important;
+}
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
