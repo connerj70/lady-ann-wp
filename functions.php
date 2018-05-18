@@ -164,7 +164,7 @@ function lady_ann_scripts() {
 
 	wp_enqueue_style('email-style', get_template_directory_uri() . '/styles/email.css');
 
-	wp_enqueue_style( 'font-awesome', "https://use.fontawesome.com/releases/v5.0.9/css/all.css" );
+	wp_enqueue_style( 'font-awesome', "https://use.fontawesome.com/releases/v5.0.13/css/all.css" );
 
 	wp_enqueue_script( 'lady-ann-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

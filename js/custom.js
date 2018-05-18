@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
 
     
         $(window).scroll(function() {
-               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/') {
+               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/lady-ann/') {
                 timesLoaded += 1;
                 if(timesLoaded === 4) {
                     $(".load").css("display", "flex");
@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
 
         jQuery( document.body ).on( 'post-load', function () {
                 // New content has been added to the page.
-                console.log("POST LOAD TRIGGERED")
+                // console.log("POST LOAD TRIGGERED")
         } );
 
 

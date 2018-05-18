@@ -1141,8 +1141,9 @@ object {
     color: #fff;
     cursor: pointer;
     position: absolute;
-    top: 7px;
+    top: 10px;
     right: 15px;
+    width: 15px;
 }
 
 .search-field {
@@ -1175,7 +1176,8 @@ input:focus {outline:none;}
     font-size: 20px;
     position: absolute;
     top: 7px;
-    right: 15px;
+    right: 0px;
+    width: 25px;
 }
 
 .notification-bell {
@@ -1702,6 +1704,10 @@ POST META
 
 .addtoany_header {
     margin: 0 !important;
+}
+
+.next-arrow {
+    width: 20px;
 }
 
 
