@@ -17,7 +17,9 @@
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
-
+		?>
+		<h4 class="letter-date"> <span class="span-line"></span><?php the_time( get_option( 'date_format' )) ?> <span class="span-line"></span></h4>
+		<?php
 		if ( 'post' === get_post_type() ) :
 			?>
 			<div class="entry-meta">
@@ -33,15 +35,19 @@
 
 	<div class="entry-content">
 		<?php if(get_post_type() != 'post') : ?>
-
+			<h3><b>To:</b> letters@iamladyann.com</h3>
 			<!-- <h2><b>Subject:</b> <?php the_field('Subject');?></h2> -->
-			<?php if(get_field('anonymous')) : ?>
+			<h3>
+				<b>Subject: </b>
+				<?php the_field("Subject");?>
+			</h3>
+			<!-- <?php if(get_field('anonymous')) : ?>
 				<h3>
 					<b>From:</b> 
 					<?php the_field('From');?>
 				</h3>
-			<?php endif; ?>
-			<h4>Situation:</h4>
+			<?php endif; ?> -->
+			<h4>Message Box:</h4>
 			<p><?php the_field('situation_box');?></p>
 
 		<?php endif; ?>

@@ -97,7 +97,7 @@ get_header();
 		</div>
 
 		<div class="email_sub-container">
-		    <h3>Situation Box:</h3>
+		    <h3>Message Box:</h3>
 		    <textarea
 		    	class="required"
 		    	id="situation"
