@@ -1235,6 +1235,7 @@ input:focus {outline:none;}
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 30px;
+    max-width: 100%;
 }
 
 .type-post {
@@ -1536,6 +1537,10 @@ POST META
     width: 40px;
 }
 
+.addtoany_header {
+    font-weight: 500;
+}
+
 .a2a_kit.a2a_kit_size_.addtoany_list>.letter_link {
     display:none;
 }
@@ -1582,7 +1587,7 @@ POST META
         background: #fff;
         position:absolute;
         left:0;
-        top: 408px;
+        top: 120px;
         display: flex;
         flex-direction: column;
         height: 300px;
@@ -1720,7 +1725,12 @@ POST META
 }
 
 #footer-sidebar {
-    width: 100%;
+    width: 100% !important;
+    max-width: 800px !important;
+}
+
+.site-main {
+    max-width: 100%;
 }
 
 
