@@ -1737,6 +1737,11 @@ POST META
 
 .site-main {
     max-width: 100%;
+    width: 100%;
+}
+
+.header_bars {
+    width: 13px;
 }
 
 
