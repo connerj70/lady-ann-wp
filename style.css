@@ -1744,6 +1744,16 @@ POST META
     width: 13px;
 }
 
+#media_image-5 {
+    position: sticky;
+    top: 20px;
+}
+
+#media_image-3 {
+    position: sticky;
+    top: 40px;
+}
+
 
 
 

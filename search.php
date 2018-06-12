@@ -14,7 +14,7 @@ get_header();
 		<main id="main" class="site-main">
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
+		<!-- 	<header class="page-header">
 				<h1 class="page-title">
 					<?php
 					/* translators: %s: search query. */
@@ -22,7 +22,6 @@ get_header();
 					?>
 				</h1>
 			</header><!-- .page-header -->
-
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
