@@ -1754,6 +1754,10 @@ POST META
     top: 40px;
 }
 
+.a2a_button_email img {
+    max-width: 111%;
+}
+
 
 
 

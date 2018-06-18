@@ -48,6 +48,7 @@
 	box-shadow: 1px 1px 1px #d3d3d3;
 	border-bottom: 30px;
 	transition: all 0.2s;
+	border-radius: 40px;
 }
 
 .email-submit-btn:hover{
