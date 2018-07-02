@@ -59,6 +59,24 @@
 			'after'  => '</div>',
 		) );
 		?>
+		
+		<?php 
+			if(has_category("videos")) :
+		?>
+			<div class="news-category-tag">Videos</div>
+		<?php 
+			elseif(has_category("letters")) :
+		?>
+			<div class="news-category-tag">Letters</div>
+
+		<?php 
+			elseif(has_category("relationships")) :
+		?>
+			<div class="news-category-tag">Relationships</div>
+		<?php 
+			endif;
+		?>
+
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
