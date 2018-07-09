@@ -1618,7 +1618,7 @@ POST META
 
 
     .menu-toggle {
-        background: var(--pink);
+        background: #fff;
         border: none;
         color: #fff;
         padding: 10px 15px;
@@ -1741,7 +1741,7 @@ POST META
 }
 
 .header_bars {
-    width: 13px;
+    width: 22px;
 }
 
 /*#media_image-5 {

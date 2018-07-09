@@ -11,7 +11,8 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php
+		<img style="margin: 0 auto; display: flex; margin-bottom: 10px" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
+		<!-- <?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
@@ -28,27 +29,28 @@
 				lady_ann_posted_by();
 				?>
 			</div><!-- .entry-meta -->
-		<?php endif; ?>
+		<?php endif; ?> -->
+		<div style="display:flex; align-items:center; justify-content: center; font-size: 25px; color: #76828a;">Re: <?php the_title(); ?></div>
 	</header><!-- .entry-header -->
 
 	<?php lady_ann_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php if(get_post_type() != 'post') : ?>
-			<h3><b>To:</b> letters@iamladyann.com</h3>
+			<!-- <h3><b>To:</b> letters@iamladyann.com</h3> -->
 			<!-- <h2><b>Subject:</b> <?php the_field('Subject');?></h2> -->
-			<h3>
+			<!-- <h3>
 				<b>Subject: </b>
 				<?php the_field("Subject");?>
-			</h3>
+			</h3> -->
 			<!-- <?php if(get_field('anonymous')) : ?>
 				<h3>
 					<b>From:</b> 
 					<?php the_field('From');?>
 				</h3>
 			<?php endif; ?> -->
-			<h4>Message Box:</h4>
-			<p><?php the_field('situation_box');?></p>
+			<h4 style="color: #76828a">Dear Lady. Ann:</h4>
+			<p><?php the_field('situation_box'); ?> <p style="display:flex; justify-content: left;">- <?php the_field("From"); ?></p></p>
 
 		<?php endif; ?>
 
