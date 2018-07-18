@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<img style="margin: 0 auto; display: flex; margin-bottom: 10px" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
+		<img style="margin: 0 auto; display: flex; margin-bottom: 10px; height: 70px;" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
 		<!-- <?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -30,7 +30,7 @@
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?> -->
-		<div style="display:flex; align-items:center; justify-content: center; font-size: 25px; color: #76828a;">Re: <?php the_title(); ?></div>
+		<div style="font-weight: 100; display:flex; align-items:center; justify-content: center; font-size: 25px; color: #76828a; margin-top: 30px; ">Re: <?php the_title(); ?></div>
 	</header><!-- .entry-header -->
 
 	<?php lady_ann_post_thumbnail(); ?>
@@ -49,11 +49,20 @@
 					<?php the_field('From');?>
 				</h3>
 			<?php endif; ?> -->
-			<h4 style="color: #76828a">Dear Lady. Ann:</h4>
+			<h4 style="color: #76828a; margin-bottom:20px;">Dear Lady. Ann:</h4>
 			<p><?php the_field('situation_box'); ?> <p style="display:flex; justify-content: left;">- <?php the_field("From"); ?></p></p>
 
 		<?php endif; ?>
+		<div class="bottom-letter-container">
+			<img class="bottom-ribbon" src="<?php bloginfo('template_url'); ?>/assets/bow.png" />
+			<ul class="city-list">
+				<li>New York. Los Angeles</li>
+				<li>Washington DC</li>
+				<li>Baltimore. Boston</li>
+				<li>London</li>
+			</ul>
 
+		</div>
 		<?php
 		the_content( sprintf(
 			wp_kses(
