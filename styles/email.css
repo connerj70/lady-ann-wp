@@ -1,5 +1,4 @@
 .email-container {
-	background: #eaeaea;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,6 +9,7 @@
     border-radius: 10px;
     margin: 30px 30px;
     border: 1px solid #d3d3d3;
+    background: #fff;
 }
 
 .email-form {
@@ -35,15 +35,15 @@
 
 .email_sub-container input {
 	width: 100%;
-	max-width: 595px;
+	/*max-width: 595px;*/
 	padding: 5px 10px;
 	height: 40px;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 }
 
 .email-submit-btn {
 	cursor: pointer;
-	width: 100%;
+	width: 50%;
 	padding: 20px 20px;
 	background: #fff;
 	color: #333;
@@ -51,7 +51,6 @@
 	box-shadow: 1px 1px 1px #d3d3d3;
 	border-bottom: 30px;
 	transition: all 0.2s;
-	border-radius: 40px;
 }
 
 .email-submit-btn:hover{

@@ -57,13 +57,15 @@ get_header();
 
 	<img class="email-banner" src="<?php bloginfo('template_url'); ?>/assets/banner.png" />
 
+	<p>To send an email to Lady. Ann, fill out the form below and submit. All fields are required.</p>
+
 	<!-- <div class="lady-ann-logo2-container">
    		<img class="lady-ann-logo2" src="<?php bloginfo('template_url'); ?>/assets/circular-logo.svg" />
     </div>
  -->
     <form action="" id="primaryPostForm" method="POST" class="email-form">
 
-	    <div class="email_sub-container">
+	  <!--   <div class="email_sub-container">
 		    <h3>To:</h3>
 		    <input
 		    	id="to"
@@ -72,36 +74,36 @@ get_header();
 		        placeholder="LadyAnn@Pankaata.com"
 		        disabled
 			    />
-		</div>
+		</div> -->
 		
 		 <div class="email_sub-container">
-	    <h3>From:</h3>
+	    <!-- <h3>From:</h3> -->
 		    <input
 		    	class="required"
 		        name="from"
 		        id="from"
 		        type="text"
-		        placeholder="Johndoe@gmail.com"
+		        placeholder="Enter Your Email Here"
 			    />
 		</div>
 
 	 	<div class="email_sub-container">
-		    <h3>Subject:</h3>
+		    <!-- <h3>Subject:</h3> -->
 		    <input
 		    	class="required"
 		        name="title"
 		        id="title"
 		        type="text"
-		        placeholder="Hi Lady Ann."
+		        placeholder="Subject"
 			    />
 		</div>
 
 		<div class="email_sub-container">
-		    <h3>Message Box:</h3>
+		    <!-- <h3>Message Box:</h3> -->
 		    <textarea
 		    	class="required"
 		    	id="situation"
-		        placeholder="Dear Lady. Ann"
+		        placeholder="Go ahead and tell it all..."
 		        name="situation"
 		        rows="10"
 			    >
@@ -117,14 +119,18 @@ get_header();
 		        checked
 		    />
 		</div>
-
+		<p>
+			By clicking submit, you agree and acknowledge that the use of information to Lady. Ann is subject to the terms and conditions contained here on our Terms of Service, Privacy Policy, and Copyright Policy.
+   		</p>
 		<div class="email_sub-container button-container">
 			<input type="hidden" name="submitted" id="submitted" value="true" />
-		    <button type="submit" class="email-submit-btn">Send</button>
+			<div style="display: flex; justify-content: center; width: 100%;">
+		    	<button type="submit" class="email-submit-btn">Submit Letter</button>
+			</div>
 	  	</div>
 	  
   	</form>
-
+  
   	
 </div><!-- #primary -->
 
