@@ -1794,6 +1794,10 @@ POST META
     text-align: center;
 }
 
+.lazy-loaded {
+    width: 35px;
+}
+
 
 
 

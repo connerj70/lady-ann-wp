@@ -10,6 +10,7 @@
 	background: #fff;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	color: #989898;
 }
 
 .email-form {
@@ -31,7 +32,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .email_sub-container input {

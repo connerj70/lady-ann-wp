@@ -56,9 +56,9 @@ get_header();
 <div class="email-container">
 
 	<img class="email-banner" src="<?php bloginfo('template_url'); ?>/assets/banner.png" />
-	<p>
+	<div style="text-align:left; width: 100%; max-width: 700px; margin-top: 10px;">
 		To send an email to Lady. Ann, fill out the form below and submit. All fields are required.
-	</p>
+	</div>
 	<!-- <div class="lady-ann-logo2-container">
    		<img class="lady-ann-logo2" src="<?php bloginfo('template_url'); ?>/assets/circular-logo.svg" />
     </div>
@@ -111,7 +111,7 @@ get_header();
 		</div>
 
 		<div class="email_sub-container">
-		    <h3>Dear Lady. Ann, please keep me anonymous</h3>
+		    <div>Dear Lady. Ann, please keep me anonymous</div>
 		    <input
 		    	name="anonymous"
 		    	style="width: 30px; height: 30px; marginTop: 5px"
@@ -120,9 +120,9 @@ get_header();
 		    />
 		</div>
 
-		<p>
+		<div style="color: #000;">
 				By clicking submit, you agree and acknowledge that the use of information to Lady. Ann is subject to the terms and conditions contained here on our Terms of Service, Privacy Policy, and Copyright Policy.
-			</p>
+			</div>
 
 		<div class="email_sub-container button-container">
 			
