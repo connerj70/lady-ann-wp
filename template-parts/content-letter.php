@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<img style="margin: 0 auto; display: flex; margin-bottom: 10px" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
+		<img style="margin: 0 auto; display: flex; margin-bottom: 10px; width: 190px;" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
 		<!-- <?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
