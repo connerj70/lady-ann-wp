@@ -59,6 +59,7 @@ get_header();
 	<div style="text-align:left; width: 100%; max-width: 700px; margin-top: 10px;">
 		To send an email to Lady. Ann, fill out the form below and submit. All fields are required.
 	</div>
+
 	<!-- <div class="lady-ann-logo2-container">
    		<img class="lady-ann-logo2" src="<?php bloginfo('template_url'); ?>/assets/circular-logo.svg" />
     </div>
@@ -124,6 +125,7 @@ get_header();
 				By clicking submit, you agree and acknowledge that the use of information to Lady. Ann is subject to the terms and conditions contained here on our Terms of Service, Privacy Policy, and Copyright Policy.
 			</div>
 
+
 		<div class="email_sub-container button-container">
 			
 			<input type="hidden" name="submitted" id="submitted" value="true" />
@@ -133,7 +135,7 @@ get_header();
 	  	</div>
 	  
   	</form>
-
+  
   	
 </div><!-- #primary -->
 
