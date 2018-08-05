@@ -60,7 +60,36 @@ p {
 	line-height: 28.8px;
 	color: #76828a;
 	font-weight: 100;
-	font-family: "Marat", serif;
+	font-family: "Kievit;
+}
+
+.city-list {
+	list-style: none;
+	color: #76828a;
+	opacity: 0.4;
+}
+
+.city-list li {
+	text-align: right;
+	font-size: 15px;
+}
+
+.bottom-letter-container {
+	display: flex;
+	justify-content: space-between;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	align-items: center;
+}
+
+.bottom-ribbon {
+	width: 80px;
+    height: 80px;
+    position: realtive;
+    position: relative;
+    left: -25px;
+    top: 50px;
+    opacity: 0.6;
 }
 
 @media(max-width: 500px) {
