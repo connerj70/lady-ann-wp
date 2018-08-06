@@ -56,9 +56,9 @@ get_header();
 <div class="email-container">
 
 	<img class="email-banner" src="<?php bloginfo('template_url'); ?>/assets/banner.png" />
-	<div style="text-align:left; width: 100%; max-width: 700px; margin-top: 10px;">
+	<!-- <div style="text-align:left; width: 100%; max-width: 700px; margin-top: 10px;">
 		To send an email to Lady. Ann, fill out the form below and submit. All fields are required.
-	</div>
+	</div> -->
 	<!-- <div class="lady-ann-logo2-container">
    		<img class="lady-ann-logo2" src="<?php bloginfo('template_url'); ?>/assets/circular-logo.svg" />
     </div>
@@ -100,17 +100,10 @@ get_header();
 
 		<div class="email_sub-container">
 		    <!-- <h3>Message Box:</h3> -->
-		    <textarea
-		    	class="required"
-		    	id="situation"
-		        placeholder="Go ahead and tell it all..."
-		        name="situation"
-		        rows="10"
-			    >
-			</textarea>
+		    <textarea class="required" id="situation" placeholder="Go ahead and tell it all..." name="situation" rows="10"></textarea>
 		</div>
 
-		<div class="email_sub-container">
+		<!-- <div class="email_sub-container">
 		    <div>Dear Lady. Ann, please keep me anonymous</div>
 		    <input
 		    	name="anonymous"
@@ -118,17 +111,17 @@ get_header();
 		        type="checkbox"
 		        checked
 		    />
-		</div>
+		</div> -->
 
-		<div style="color: #000;">
-				By clicking submit, you agree and acknowledge that the use of information to Lady. Ann is subject to the terms and conditions contained here on our Terms of Service, Privacy Policy, and Copyright Policy.
+		<div style="color: #000; opacity: 0.5; font-size: 10px;">
+				By clicking submit, you agree and acknowledge that the use of information sent to Lady. Ann is subject to the terms and conditions contained here on our Terms of Service, Privacy Policy, and Copyright Policy.
 			</div>
 
 		<div class="email_sub-container button-container">
 			
 			<input type="hidden" name="submitted" id="submitted" value="true" />
 			<div style="display: flex; justify-content: center; width: 100%;">
-		    	<button type="submit" class="email-submit-btn">Submit Letter</button>
+		    	<button type="submit" class="email-submit-btn">Send</button>
 			</div>
 	  	</div>
 	  

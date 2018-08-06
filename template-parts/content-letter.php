@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<img style="margin: 0 auto; display: flex; margin-bottom: 10px; width: 190px;" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
+		<img style="margin: 0 auto; display: flex; margin-bottom: 10px; width: 130px;" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
 		<!-- <?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -30,7 +30,7 @@
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?> -->
-		<div style="display:flex; align-items:center; justify-content: center; font-size: 25px; color: #76828a;">Re: <?php the_title(); ?></div>
+		<div style="display:flex; align-items:center; justify-content: center; font-size: 14.5px; color: #76828a; opacity: 0.8; font-weight: 100;">Re: <?php the_title(); ?></div>
 	</header><!-- .entry-header -->
 
 	<?php lady_ann_post_thumbnail(); ?>
@@ -49,8 +49,8 @@
 					<?php the_field('From');?>
 				</h3>
 			<?php endif; ?> -->
-			<h4 style="color: #76828a">Dear Lady. Ann:</h4>
-			<p><?php the_field('situation_box'); ?> <p style="display:flex; justify-content: left;">- <?php the_field("From"); ?></p></p>
+			<h4 style="color: #76828a; font-size: 14px; font-family: sans-serif; font-weight: 100; opacity: 0.75;">Dear Lady. Ann:</h4>
+			<p><?php the_field('situation_box'); ?> <p style="display:flex; justify-content: left; font-size: 14px;">- <?php the_field("From"); ?></p></p>
 
 		<?php endif; ?>
 

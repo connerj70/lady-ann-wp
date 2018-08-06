@@ -1588,7 +1588,7 @@ POST META
 @media(max-width: 740px) {
 
     #primary-menu[aria-expanded = "true"] {
-        background: #fff;
+        background: var(--pink);
         /*position:absolute;*/
         position: fixed;
         left:0;
@@ -1611,6 +1611,7 @@ POST META
     }
 
     #primary-menu[aria-expanded = "true"] li:hover {
+        color: #fff;
     }
 
      #primary-menu[aria-expanded = "true"] li a {
@@ -1801,6 +1802,10 @@ POST META
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+}
+
+p {
+    font-size: 14px;
 }
 
 
