@@ -60,22 +60,22 @@
 		) );
 		?>
 		
-		<?php 
-			if(has_category("videos")) :
+		<!-- <?php 
+			//if(has_category("videos")) :
 		?>
 			<div class="news-category-tag">Videos</div>
 		<?php 
-			elseif(has_category("letters")) :
+			//elseif(has_category("letters")) :
 		?>
 			<div class="news-category-tag">Letters</div>
 
 		<?php 
-			elseif(has_category("relationships")) :
+			//elseif(has_category("relationships")) :
 		?>
 			<div class="news-category-tag">Relationships</div>
 		<?php 
-			endif;
-		?>
+			//endif;
+		?> -->
 
 	</div><!-- .entry-content -->
 

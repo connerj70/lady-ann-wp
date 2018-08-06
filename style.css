@@ -1589,12 +1589,8 @@ POST META
 @media(max-width: 740px) {
 
     #primary-menu[aria-expanded = "true"] {
-<<<<<<< HEAD
         background: var(--pink);
-=======
 
-        background: #fff;
->>>>>>> 914b56fc562529591c56758b08edb0074dc34bea
         /*position:absolute;*/
         position: fixed;
         left:0;
@@ -1608,7 +1604,7 @@ POST META
 
         border-top: 1px solid #333;
         box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
-        z-index: 5;
+        z-index: 10;
         transition: all 1s;
         color: #000;
     }
@@ -1774,10 +1770,6 @@ POST META
 
 .header_bars {
     width: 22px;
-}
-
-.header_bar {
-    display:none;
 }
 
 .header_x {

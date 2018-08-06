@@ -47,14 +47,15 @@
 
 .email-submit-btn {
 	cursor: pointer;
-	width: 50%;
+	width: 110px;
 	padding: 20px 20px;
 	background: #fff;
 	color: #333;
-	font-size: 25px;
+	font-size: 18px;
 	box-shadow: 1px 1px 1px #d3d3d3;
 	border-bottom: 30px;
 	transition: all 0.2s;
+	border-radius: 50px;
 
 }
 
