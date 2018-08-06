@@ -29,7 +29,7 @@ get_header();
 			$query = new WP_Query($args);
 
 		?>
-			<img class="email-banner" src="<?php bloginfo('template_url'); ?>/assets/banner.png" style="margin: 0; margin-bottom: 25px; margin-top: 5px;"/>
+			<img class="email-banner" src="<?php bloginfo('template_url'); ?>/assets/our-promise.png" style="margin: 0; margin-bottom: 25px; margin-top: 5px;"/>
 
 		<?php if($query->have_posts()) : while($query->have_posts()) : $query->the_post();?>
 
