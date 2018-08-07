@@ -1456,6 +1456,10 @@ input:focus {outline:none;}
     font-weight: 100 !important;
 }
 
+.entry-content {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .entry-content h2 {
     font-size: 25px;
     margin: 0;
@@ -1802,10 +1806,6 @@ POST META
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-}
-
-p {
-    font-size: 14px;
 }
 
 

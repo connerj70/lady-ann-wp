@@ -21,6 +21,12 @@ function advanced_custom_field_excerpt() {
 	return apply_filters('the_excerpt', $text);
 }
 
+function custom_add_google_fonts() {
+ wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:300', false );
+ }
+ add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
+
+
 if ( ! function_exists( 'lady_ann_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.

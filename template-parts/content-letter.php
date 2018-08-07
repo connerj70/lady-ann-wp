@@ -30,7 +30,7 @@
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?> -->
-		<div style="display:flex; align-items:center; justify-content: center; font-size: 14.5px; color: #76828a; opacity: 0.8; font-weight: 100;">Re: <?php the_title(); ?></div>
+		<div style="font-family: 'Montserrat', sans-serif; display:flex; align-items:center; justify-content: center; font-size: 14.5px; color: #76828a; opacity: 0.8; font-weight: 100;">Re: <?php the_title(); ?></div>
 	</header><!-- .entry-header -->
 
 	<?php lady_ann_post_thumbnail(); ?>
@@ -49,9 +49,10 @@
 					<?php the_field('From');?>
 				</h3>
 			<?php endif; ?> -->
-			<h4 style="color: #76828a; font-size: 14px; font-family: sans-serif; font-weight: 100; opacity: 0.75;">Dear Lady. Ann:</h4>
-			<p><?php the_field('situation_box'); ?> <p style="display:flex; justify-content: left; font-size: 14px;">- <?php the_field("From"); ?></p></p>
-			<div style="display: flex; align-items: center; justify-content: space-between; overflow-x: hidden; overflow-y: hidden;">
+			<h4 style="color: #76828a; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 100; opacity: 0.75;">Dear Lady. Ann:</h4>
+			<p><?php the_field('situation_box'); ?> <p style="display:flex; justify-content: left; font-size: 14px; font-family: 'Montserrat', sans-serif;">- <?php the_field("From"); ?></p></p>
+			
+			<div style="display: flex; align-items: center; justify-content: space-between; overflow-x: hidden; overflow-y: hidden; font-family: 'Montserrat', sans-serif;">
 				<img style="width: 70px; position: relative; top: 22px; left: -14px; opacity: 0.5;" src="<?php bloginfo('template_url'); ?>/assets/bow.png" />
 				<ul class="city-list" style="list-style: none; font-size: 9px; opacity: 0.45;">
 					<li>New York. Los Angeles.</li>
