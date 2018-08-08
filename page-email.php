@@ -114,7 +114,7 @@ get_header();
 		</div> -->
 
 		<div style="color: #000; opacity: 0.5; font-size: 10px;">
-				By clicking submit, you agree and acknowledge that the use of information sent to Lady. Ann is subject to the terms and conditions contained here on our Terms of Service, Privacy Policy, and Copyright Policy.
+				By clicking send, you agree and acknowledge that the use of information sent to Lady. Ann is subject to the terms and conditions contained here on our <span style="color: #EA8B88; font-weight: bold; font-style: italic;">Terms of Use</span>, <span style="color: #EA8B88; font-weight: bold; font-style: italic;">Privacy Policy</span>, and <span style="color: #EA8B88; font-weight: bold; font-style: italic;">Cookie Policy</span>.
 			</div>
 
 		<div class="email_sub-container button-container">

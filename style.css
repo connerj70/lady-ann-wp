@@ -1478,11 +1478,14 @@ input:focus {outline:none;}
     font-weight: 500;
     margin-bottom: -15px;
     font-size: 25px;
+    padding-left: 30px;
 }
 
 .entry-content p {
     display: flex;
     justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -1806,6 +1809,23 @@ POST META
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+}
+
+.error {
+    display: block;
+    width: 100%;
+    background: #B22222;
+    color: #fff;
+    padding: 5px 13px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    margin-top: 5px;
+}
+
+.required {
+    background: #fff;
+    color: black;
+    border-radius: 0;
 }
 
 

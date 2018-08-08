@@ -34,6 +34,7 @@
 	justify-content: space-between;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	flex-direction: column;
 }
 
 .email_sub-container input {
@@ -50,7 +51,7 @@
 	padding: 20px 20px;
 	background: #fff;
 	color: #333;
-	font-size: 18px;
+	font-size: 16px;
 	box-shadow: 1px 1px 1px #d3d3d3;
 	border-bottom: 30px;
 	transition: all 0.2s;

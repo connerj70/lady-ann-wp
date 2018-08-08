@@ -52,14 +52,14 @@
 			<h4 style="color: #76828a; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 100; opacity: 0.75;">Dear Lady. Ann:</h4>
 			<p><?php the_field('situation_box'); ?> <p style="display:flex; justify-content: left; font-size: 14px; font-family: 'Montserrat', sans-serif;">- <?php the_field("From"); ?></p></p>
 			
-			<div style="display: flex; align-items: center; justify-content: space-between; overflow-x: hidden; overflow-y: hidden; font-family: 'Montserrat', sans-serif;">
-				<img style="width: 70px; position: relative; top: 22px; left: -14px; opacity: 0.5;" src="<?php bloginfo('template_url'); ?>/assets/bow.png" />
-				<ul class="city-list" style="list-style: none; font-size: 9px; opacity: 0.45;">
+			<div style="position: relative; top: -30px; height: 50px; display: flex; align-items: center; justify-content: space-between; overflow-x: hidden; overflow-y: hidden; font-family: 'Montserrat', sans-serif;">
+				<img style="width: 70px; position: relative; top: 10px; left: -14px;" src="<?php bloginfo('template_url'); ?>/assets/bow.png" />
+			<!-- 	<ul class="city-list" style="list-style: none; font-size: 9px; opacity: 0.45;">
 					<li>New York. Los Angeles.</li>
 					<li>Washington DC.</li>
 					<li>Baltimore. Boston.</li>
 					<li>London.</li>
-				</ul>
+				</ul> -->
 			</div>
 		<?php endif; ?>
 
