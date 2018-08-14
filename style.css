@@ -1535,6 +1535,29 @@ input:focus {outline:none;}
 
 /* END LOAD MORE BUTTON -------------------------------------*/
 
+/* CAROUSEL */
+
+.carousel-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carousel-left-arrow {
+    display: flex;
+}
+
+.carousel-right-arrow {
+    display: flex;
+}
+
+.carousel-img {
+    width: 400px;
+    height: 550px;
+}
+
+/* END CAROUSEL */
+
 /*
 POST META
 
@@ -1830,8 +1853,17 @@ POST META
     border-radius: 0;
 }
 
-.select-custom {
-    background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat #eee;
+.about-image-1-container {
+    padding: 0 100px; 
+    display: flex; 
+    justify-content: space-around; 
+    height: 15%;
+    margin-top: 35px;
+}
+
+.about-image-1 {
+    width: 350px;
+    margin-right: 40px;
 }
 
 

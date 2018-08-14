@@ -32,7 +32,7 @@ Template Name: Inquiries Page
 		<h3 style="opacity: 0.6; font-weight: 100; margin-top: 20px; font-size: 18px; border: none;">Comment</h3>
 		<textarea style="width: 100%; height: 200px; border: 1px solid #d3d3d3;"></textarea>
 		<div style="display: flex; justify-content: center;">
-			<button style="box-shadow: 1px 1px 1px #d3d3d3; padding: 15px 50px; background: #d3d3d3; color: #ea8b88; font-size: 18px; margin: 10px auto; cursor: pointer;">Send</button>
+			<button style="box-shadow: 1px 1px 1px #d3d3d3; padding: 15px 50px; background: #d3d3d3; color: #ea8b88; font-size: 18px; margin: 20px auto; cursor: pointer;">Send</button>
 		</div>
 	</div><!-- #primary -->
 

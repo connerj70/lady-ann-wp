@@ -61,13 +61,14 @@
 	         <div class="footer_links-container footer-margin">
                     <ul>
                         <li >About Lady. Ann</li>
+                        <li >Terms of Use</li>
                         <li >Privacy Policy</li>
                         <li >
-                            Communications Preference
+                            Cookie Policy
                         </li>
-                        <li >Terms of Use</li>
+                        
                         <li >
-                            Place An Advert With Lady. Ann
+                            Contact Us
                         </li>
                     </ul>
                 </div>

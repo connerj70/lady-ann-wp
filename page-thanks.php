@@ -15,7 +15,7 @@ Template Name: Thanks Page
 		<h3 style="text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.6;">We appreciate your sharing your story with us. <br /> Watch out for you letter to be posted under our <a style="color: #ea8b88; text-decoration: none;"href="lady-ann/letters">Letters section.</a> </h3>
 		<h3 style="text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.6;">Like what we do? Click the share button to tell your friends about us.</h3>
 		<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-		    <a class="a2a_dd" href="https://www.addtoany.com/share"><img src="<?php bloginfo('template_url'); ?>/assets/sharethis.png" border="0" alt="Share" width="100" height="100"></a>
+		    <a class="a2a_dd" href="https://www.addtoany.com/share"><img src="<?php bloginfo('template_url'); ?>/assets/share.png" border="0" alt="Share" width="90" height="90"></a>
 		</div>
 
 		<h3 style="margin-bottom: 0; text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.6;"> #DearLadyAnn #WeLoveLetters</h3>
