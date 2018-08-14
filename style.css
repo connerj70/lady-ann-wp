@@ -1830,6 +1830,10 @@ POST META
     border-radius: 0;
 }
 
+.select-custom {
+    background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat #eee;
+}
+
 
 
 
