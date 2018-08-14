@@ -24,15 +24,15 @@ get_header();
 
 		<div class="carousel-container">
 			<span class="carousel-left-arrow"><</span>
-			<div class="carousel-left-inner-container">
+			<div class="carousel-left-inner-container-1">
 				<h1 style="margin: 40px 0; text-align: center; font-family: sans-serif; font-weight: 100; opacity: 0.8;">No man is an island</h1>
 				<h3 style="font-weight: 100; text-align: center; font-size: 24px; opacity: 0.8;">We believe no man is an island, thus <br /> why we created a safe community <br /> and beautiful platform for our users to <br /> share and engage.</h3>
 				<h3 style="margin-bottom: 0; text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.8;"> #DearLadyAnn #WeLoveLetters</h3>
 			</div>
-			<div class="carousel-rigth-inner-container">
+			<div class="carousel-right-inner-container-1">
 				<img class="carousel-img" src="<?php bloginfo('template_url'); ?>/assets/ourvalues-1.jpg" />
 			</div>
-			<span class=carousel-rigth-arrow>></span>
+			<span class="carousel-right-arrow">></span>
 		</div>
 
 		<!-- End Carousel -->

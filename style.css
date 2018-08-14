@@ -1545,15 +1545,21 @@ input:focus {outline:none;}
 
 .carousel-left-arrow {
     display: flex;
+    cursor: pointer;
 }
 
 .carousel-right-arrow {
     display: flex;
+    cursor: pointer;
 }
 
 .carousel-img {
     width: 400px;
     height: 550px;
+}
+
+.carousel-hidden {
+    display: none !important;
 }
 
 /* END CAROUSEL */
@@ -1865,6 +1871,7 @@ POST META
     width: 350px;
     margin-right: 40px;
 }
+
 
 
 

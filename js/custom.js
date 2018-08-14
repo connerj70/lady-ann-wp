@@ -105,6 +105,34 @@ jQuery(document).ready(function($) {
             $(".code-block-1").css("display", "none");
         });
 
+        var carouselTracker = 1;
+
+        $(".carousel-left-arrow").on("click", function() {
+            carouselTracker = carouselTracker - 1;
+            if(carouselTracker < 1) {
+                carouselTracker = 3;
+            }
+            console.log(carouselTracker);
+            if(carouselTracker == 2) {
+                console.log("TRACKER IS 2");
+                // $(".carousel-left-inner-container-1").addClass(".carousel-hidden");
+                // $(".carousel-right-inner-container-1").toggleClass(".carousel-hidden");
+                $(".carousel-left-inner-container-1").css("display", "block");
+                $(".carousel-right-inner-container-1").css("display", "block");
+            } else if(carouselTracker != 2) {
+                $(".carousel-left-inner-container-1").css("display", "none");
+                $(".carousel-right-inner-container-1").css("display", "none");
+            }
+        })
+
+        $(".carousel-right-arrow").on("click", function() {
+             carouselTracker = carouselTracker + 1;
+            if(carouselTracker > 3) {
+                carouselTracker = 1;
+            }
+            console.log(carouselTracker);
+        })
+
     /* scroll functions */
     // var lastScroll = 0;
     // $(window).scroll(function() {
