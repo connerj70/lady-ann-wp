@@ -112,16 +112,34 @@ jQuery(document).ready(function($) {
             if(carouselTracker < 1) {
                 carouselTracker = 3;
             }
+
+            if(carouselTracker == 1) {
+                $(".carousel-left-inner-container-1").css("display", "block");
+                $(".carousel-right-inner-container-1").css("display", "block");
+            } else if(carouselTracker != 1) {
+                $(".carousel-left-inner-container-1").css("display", "none");
+                $(".carousel-right-inner-container-1").css("display", "none");
+            }
             console.log(carouselTracker);
             if(carouselTracker == 2) {
                 console.log("TRACKER IS 2");
                 // $(".carousel-left-inner-container-1").addClass(".carousel-hidden");
                 // $(".carousel-right-inner-container-1").toggleClass(".carousel-hidden");
-                $(".carousel-left-inner-container-1").css("display", "block");
-                $(".carousel-right-inner-container-1").css("display", "block");
+                $(".carousel-left-inner-container-2").css("display", "block");
+                $(".carousel-right-inner-container-2").css("display", "block");
             } else if(carouselTracker != 2) {
-                $(".carousel-left-inner-container-1").css("display", "none");
-                $(".carousel-right-inner-container-1").css("display", "none");
+                $(".carousel-left-inner-container-2").css("display", "none");
+                $(".carousel-right-inner-container-2").css("display", "none");
+            }
+
+             if(carouselTracker == 3) {
+                // $(".carousel-left-inner-container-1").addClass(".carousel-hidden");
+                // $(".carousel-right-inner-container-1").toggleClass(".carousel-hidden");
+                $(".carousel-left-inner-container-3").css("display", "block");
+                $(".carousel-right-inner-container-3").css("display", "block");
+            } else if(carouselTracker != 3) {
+                $(".carousel-left-inner-container-3").css("display", "none");
+                $(".carousel-right-inner-container-3").css("display", "none");
             }
         })
 
@@ -130,7 +148,33 @@ jQuery(document).ready(function($) {
             if(carouselTracker > 3) {
                 carouselTracker = 1;
             }
+             if(carouselTracker == 1) {
+                $(".carousel-left-inner-container-1").css("display", "block");
+                $(".carousel-right-inner-container-1").css("display", "block");
+            } else if(carouselTracker != 1) {
+                $(".carousel-left-inner-container-1").css("display", "none");
+                $(".carousel-right-inner-container-1").css("display", "none");
+            }
             console.log(carouselTracker);
+            if(carouselTracker == 2) {
+                console.log("TRACKER IS 2");
+                // $(".carousel-left-inner-container-1").addClass(".carousel-hidden");
+                // $(".carousel-right-inner-container-1").toggleClass(".carousel-hidden");
+                $(".carousel-left-inner-container-2").css("display", "block");
+                $(".carousel-right-inner-container-2").css("display", "block");
+            } else if(carouselTracker != 2) {
+                $(".carousel-left-inner-container-2").css("display", "none");
+                $(".carousel-right-inner-container-2").css("display", "none");
+            }
+             if(carouselTracker == 3) {
+                // $(".carousel-left-inner-container-1").addClass(".carousel-hidden");
+                // $(".carousel-right-inner-container-1").toggleClass(".carousel-hidden");
+                $(".carousel-left-inner-container-3").css("display", "block");
+                $(".carousel-right-inner-container-3").css("display", "block");
+            } else if(carouselTracker != 3) {
+                $(".carousel-left-inner-container-3").css("display", "none");
+                $(".carousel-right-inner-container-3").css("display", "none");
+            }
         })
 
     /* scroll functions */

@@ -1553,6 +1553,23 @@ input:focus {outline:none;}
     cursor: pointer;
 }
 
+
+.carousel-left-inner-container-2 {
+    display: none;
+}
+
+.carousel-right-inner-container-2 {
+    display: none;
+}
+
+.carousel-left-inner-container-3 {
+    display: none;
+}
+
+.carousel-right-inner-container-3 {
+    display: none;
+}
+
 .carousel-img {
     width: 400px;
     height: 550px;
