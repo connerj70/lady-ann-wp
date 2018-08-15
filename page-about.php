@@ -82,9 +82,12 @@ get_header();
 
 		<h3 style="font-weight: 100; text-align: center; font-size: 24px; opacity: 0.8;">Don't forget to follow us on our social media handles and to tell a friend about <br /> us using the share button below. In addition, we encourage you to use these <br /> hashtags when sharing.</h3>
 
-		<h3 style="margin-bottom: -440px; text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.8;"> #DearLadyAnn #WeLoveLetters</h3>
+		<h3 class="about-page-bottom-h3" style="text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.8;"> #DearLadyAnn #WeLoveLetters</h3>
+
 
 	</div><!-- #primary -->
+
+
 
 <?php
 get_footer();
