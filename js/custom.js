@@ -177,6 +177,36 @@ jQuery(document).ready(function($) {
             }
         })
 
+        $(".expandable-arrow-1").on("click", function() {
+            console.log('clicked');
+            $(".expandable-content-1").toggle(".expandable-closed");
+        });
+
+        $(".expandable-arrow-2").on("click", function() {
+            console.log('clicked');
+            $(".expandable-content-2").toggle(".expandable-closed");
+        });
+
+        $(".expandable-arrow-3").on("click", function() {
+            console.log('clicked');
+            $(".expandable-content-3").toggle(".expandable-closed");
+        });
+
+        $(".expandable-arrow-4").on("click", function() {
+            console.log('clicked');
+            $(".expandable-content-4").toggle(".expandable-closed");
+        });
+
+        $(".expandable-arrow-5").on("click", function() {
+            console.log('clicked');
+            $(".expandable-content-5").toggle(".expandable-closed");
+        });
+
+        $(".expandable-arrow-6").on("click", function() {
+            console.log('clicked');
+            $(".expandable-content-6").toggle(".expandable-closed");
+        });
+
     /* scroll functions */
     // var lastScroll = 0;
     // $(window).scroll(function() {

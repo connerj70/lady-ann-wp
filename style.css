@@ -1915,6 +1915,37 @@ POST META
     }
 }
 
+.policy-tab-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.policy-expand-container {
+    margin-top: 50px;
+}
+
+.policy-expandable-box {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    /*margin-bottom: 80px;*/
+}
+
+.policy-exapndable-box-left {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.expandable-closed {
+    display: none;
+}
+
 
 
 
