@@ -177,34 +177,86 @@ jQuery(document).ready(function($) {
             }
         })
 
+        var open1 = false;
+        var open2 = false;
+        var open3 = false;
+        var open4 = false;
+        var open5 = false;
+        var open6 = false;
+
         $(".expandable-arrow-1").on("click", function() {
+            
             console.log('clicked');
             $(".expandable-content-1").toggle(".expandable-closed");
+            if(open1 === false) {
+                $(".expandable-arrow-1").css("transform", "rotate(90deg)");
+                open1 = true;
+            } else {
+                $(".expandable-arrow-1").css("transform", "rotate(0deg)");
+                open1 = false;
+            }
+            console.log(open1);
+            
         });
 
         $(".expandable-arrow-2").on("click", function() {
             console.log('clicked');
             $(".expandable-content-2").toggle(".expandable-closed");
+             if(open2 === false) {
+                $(".expandable-arrow-2").css("transform", "rotate(90deg)");
+                open2 = true;
+            } else {
+                $(".expandable-arrow-2").css("transform", "rotate(0deg)");
+                open2 = false;
+            }
         });
 
         $(".expandable-arrow-3").on("click", function() {
             console.log('clicked');
             $(".expandable-content-3").toggle(".expandable-closed");
+             if(open3 === false) {
+                $(".expandable-arrow-3").css("transform", "rotate(90deg)");
+                open3 = true;
+            } else {
+                $(".expandable-arrow-3").css("transform", "rotate(0deg)");
+                open3 = false;
+            }
         });
 
         $(".expandable-arrow-4").on("click", function() {
             console.log('clicked');
             $(".expandable-content-4").toggle(".expandable-closed");
+             if(open4 === false) {
+                $(".expandable-arrow-4").css("transform", "rotate(90deg)");
+                open4 = true;
+            } else {
+                $(".expandable-arrow-4").css("transform", "rotate(0deg)");
+                open4 = false;
+            }
         });
 
         $(".expandable-arrow-5").on("click", function() {
             console.log('clicked');
             $(".expandable-content-5").toggle(".expandable-closed");
+             if(open5 === false) {
+                $(".expandable-arrow-5").css("transform", "rotate(90deg)");
+                open5 = true;
+            } else {
+                $(".expandable-arrow-5").css("transform", "rotate(0deg)");
+                open5 = false;
+            }
         });
 
         $(".expandable-arrow-6").on("click", function() {
             console.log('clicked');
             $(".expandable-content-6").toggle(".expandable-closed");
+             if(open6 === false) {
+                $(".expandable-arrow-6").css("transform", "rotate(90deg)");
+                open6 = true;
+            } else {
+                $(".expandable-arrow-6").css("transform", "rotate(0deg)");
+                open6 = false;
+            }
         });
 
     /* scroll functions */
