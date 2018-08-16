@@ -1923,8 +1923,16 @@ POST META
     font-size: 18px;
 }
 
-.policy-expand-container {
+.policy-expand-container-1 {
     margin-top: 50px;
+}
+
+.policy-expand-container-hidden {
+    display: none;
+}
+
+.policy-pink-bottom {
+    border-bottom: 8px solid #ea8b88;
 }
 
 .policy-expandable-box {

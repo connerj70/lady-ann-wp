@@ -120,9 +120,7 @@ jQuery(document).ready(function($) {
                 $(".carousel-left-inner-container-1").css("display", "none");
                 $(".carousel-right-inner-container-1").css("display", "none");
             }
-            console.log(carouselTracker);
             if(carouselTracker == 2) {
-                console.log("TRACKER IS 2");
                 // $(".carousel-left-inner-container-1").addClass(".carousel-hidden");
                 // $(".carousel-right-inner-container-1").toggleClass(".carousel-hidden");
                 $(".carousel-left-inner-container-2").css("display", "block");
@@ -155,9 +153,7 @@ jQuery(document).ready(function($) {
                 $(".carousel-left-inner-container-1").css("display", "none");
                 $(".carousel-right-inner-container-1").css("display", "none");
             }
-            console.log(carouselTracker);
             if(carouselTracker == 2) {
-                console.log("TRACKER IS 2");
                 // $(".carousel-left-inner-container-1").addClass(".carousel-hidden");
                 // $(".carousel-right-inner-container-1").toggleClass(".carousel-hidden");
                 $(".carousel-left-inner-container-2").css("display", "block");
@@ -186,7 +182,6 @@ jQuery(document).ready(function($) {
 
         $(".expandable-arrow-1").on("click", function() {
             
-            console.log('clicked');
             $(".expandable-content-1").toggle(".expandable-closed");
             if(open1 === false) {
                 $(".expandable-arrow-1").css("transform", "rotate(90deg)");
@@ -195,12 +190,10 @@ jQuery(document).ready(function($) {
                 $(".expandable-arrow-1").css("transform", "rotate(0deg)");
                 open1 = false;
             }
-            console.log(open1);
             
         });
 
         $(".expandable-arrow-2").on("click", function() {
-            console.log('clicked');
             $(".expandable-content-2").toggle(".expandable-closed");
              if(open2 === false) {
                 $(".expandable-arrow-2").css("transform", "rotate(90deg)");
@@ -212,7 +205,6 @@ jQuery(document).ready(function($) {
         });
 
         $(".expandable-arrow-3").on("click", function() {
-            console.log('clicked');
             $(".expandable-content-3").toggle(".expandable-closed");
              if(open3 === false) {
                 $(".expandable-arrow-3").css("transform", "rotate(90deg)");
@@ -224,7 +216,6 @@ jQuery(document).ready(function($) {
         });
 
         $(".expandable-arrow-4").on("click", function() {
-            console.log('clicked');
             $(".expandable-content-4").toggle(".expandable-closed");
              if(open4 === false) {
                 $(".expandable-arrow-4").css("transform", "rotate(90deg)");
@@ -236,7 +227,6 @@ jQuery(document).ready(function($) {
         });
 
         $(".expandable-arrow-5").on("click", function() {
-            console.log('clicked');
             $(".expandable-content-5").toggle(".expandable-closed");
              if(open5 === false) {
                 $(".expandable-arrow-5").css("transform", "rotate(90deg)");
@@ -248,7 +238,6 @@ jQuery(document).ready(function($) {
         });
 
         $(".expandable-arrow-6").on("click", function() {
-            console.log('clicked');
             $(".expandable-content-6").toggle(".expandable-closed");
              if(open6 === false) {
                 $(".expandable-arrow-6").css("transform", "rotate(90deg)");
@@ -257,6 +246,36 @@ jQuery(document).ready(function($) {
                 $(".expandable-arrow-6").css("transform", "rotate(0deg)");
                 open6 = false;
             }
+        });
+
+        $(".policy-privacy").on('click', function() {
+            $(".policy-expand-container-2").removeClass('policy-expand-container-hidden');
+            $(".policy-privacy").addClass("policy-pink-bottom");
+            $(".policy-terms").removeClass("policy-pink-bottom");
+            $(".policy-cookie").removeClass("policy-pink-bottom");
+            $(".policy-expand-container-1").addClass("policy-expand-container-hidden");
+            $(".policy-expand-container-3").addClass("policy-expand-container-hidden");
+
+        });
+
+        $(".policy-cookie").on('click', function() {
+            $(".policy-privacy").removeClass("policy-pink-bottom");
+            $(".policy-terms").removeClass("policy-pink-bottom");
+            $(".policy-cookie").addClass("policy-pink-bottom");
+            $(".policy-expand-container-3").removeClass('policy-expand-container-hidden');
+            $(".policy-expand-container-1").addClass("policy-expand-container-hidden");
+            $(".policy-expand-container-2").addClass("policy-expand-container-hidden");
+
+        });
+
+        $(".policy-terms").on('click', function() {
+            $(".policy-privacy").removeClass("policy-pink-bottom");
+            $(".policy-terms").addClass("policy-pink-bottom");
+            $(".policy-cookie").removeClass("policy-pink-bottom");
+            $(".policy-expand-container-1").removeClass('policy-expand-container-hidden');
+            $(".policy-expand-container-2").addClass("policy-expand-container-hidden");
+            $(".policy-expand-container-3").addClass("policy-expand-container-hidden");
+
         });
 
     /* scroll functions */
