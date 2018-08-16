@@ -1887,7 +1887,8 @@ POST META
 
 .about-image-1 {
     width: 350px;
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .about-page-bottom-h3 {

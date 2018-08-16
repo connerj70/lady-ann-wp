@@ -18,7 +18,7 @@ get_header();
 		<h1 style="margin: 30px 0; text-align: center; font-family: sans-serif; font-weight: 100;"><img style="width: 31px; margin-top: 70px;" src="<?php bloginfo('template_url'); ?>/assets/bow.png" /> About Lady. Ann</h1>
 		<h3 style="font-weight: 100; text-align: center; font-size: 24px; opacity: 0.8;">Is a platform designed for you engage and share <br /> intimate information about your relationship without <br /> the fear of being judged.</h3>
 		<h3 style="margin-bottom: 0; text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.8;"> #DearLadyAnn #WeLoveLetters</h3>
-		<h1 style="margin: 50px 0; text-align: center; font-family: sans-serif; font-weight: 100;"><img style="width: 31px; margin-top: 70px;" src="<?php bloginfo('template_url'); ?>/assets/bow.png" /> Our Values</h1>
+		<h1 style="margin: 30px 0; text-align: center; font-family: sans-serif; font-weight: 100;"><img style="width: 31px; margin-top: 70px;" src="<?php bloginfo('template_url'); ?>/assets/bow.png" /> Our Values</h1>
 
 		<!-- Carousel -->
 
@@ -28,7 +28,7 @@ get_header();
 			</span>
 
 			<div class="carousel-left-inner-container-1">
-				<h1 style="margin: 40px 0; text-align: center; font-family: sans-serif; font-weight: 100; margin-bottom: -15px;">No man is an island</h1>
+				<h1 style="margin: 30px 0; text-align: center; font-family: sans-serif; font-weight: 100; margin-bottom: -15px;">No man is an island</h1>
 				<h3 style="font-weight: 100; text-align: center; font-size: 24px; opacity: 0.8; padding: 0 20px;">We believe no man is an island, thus <br /> why we created a safe community <br /> and beautiful platform for our users to <br /> share and engage.</h3>
 				<h3 style="margin-bottom: 0; text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.8; margin-top: 40px;"> #DearLadyAnn #WeLoveLetters</h3>
 			</div>
@@ -48,7 +48,7 @@ get_header();
 			
 
 			<div class="carousel-left-inner-container-3">
-				<h1 style="margin: 40px 0; text-align: center; font-family: sans-serif; font-weight: 100; margin-bottom: -15px;">Privacy and Respect</h1>
+				<h1 style="margin: 30px 0; text-align: center; font-family: sans-serif; font-weight: 100; margin-bottom: -15px;">Privacy and Respect</h1>
 				<h3 style="font-weight: 100; text-align: center; font-size: 24px; opacity: 0.8; padding: 0 20px;">We believe no man is an island, thus <br /> why we created a safe community <br /> and beautiful platform for our users to <br /> share and engage.</h3>
 				<h3 style="margin-bottom: 0; text-align: center; font-size: 25px; font-family: sans-serif; font-weight: 100; opacity: 0.8; margin-top: 40px;"> #DearLadyAnn #WeLoveLetters</h3>
 			</div>
