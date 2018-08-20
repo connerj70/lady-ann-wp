@@ -1217,6 +1217,10 @@ input:focus {outline:none;}
     background-color: #EDF0F1;
 }
 
+.site-content-white {
+    background-color: #FFF;
+}
+
 .inner-site-content {
     display: flex;
     justify-content: space-between;
@@ -1541,6 +1545,7 @@ input:focus {outline:none;}
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 120%;
 }
 
 .carousel-left-arrow {
@@ -1571,8 +1576,8 @@ input:focus {outline:none;}
 }
 
 .carousel-img {
-    width: 400px;
-    height: 550px;
+    width: 550px;
+    height: 700px;
 }
 
 .carousel-hidden {
@@ -1881,7 +1886,7 @@ POST META
     padding: 0 100px; 
     display: flex; 
     justify-content: space-around; 
-    height: 15%;
+    height: 16%;
     margin-top: 35px;
 }
 
