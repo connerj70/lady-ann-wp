@@ -14,18 +14,18 @@ Template Name: Inquiries Page
 		<h3 style="font-weight: 100; text-align: center;">Select a topic below related to your inquiry</h3>
 		<div style="display: flex; justify-content: space-between;">
 			<div style="width: 50%; display: flex; flex-direction: column;">
-				<input style="margin-top: 20px; font-size: 18px; border: none; width: 50%;" placeholder="*First Name" type="text"/>
-				<input style="margin-top: 20px; font-size: 18px; border: none; width: 50%;" placeholder="*Organization" type="text"/>
-				<input style="margin-top: 20px; font-size: 18px; border: none; width: 50%;" placeholder="*Job Title" type="text"/>
+				<input style="margin-top: 20px; font-size: 18px; border: 1px solid #d3d3d3; width: 95%; border-radius: 5px; padding: 5px 10px;" placeholder="First Name" type="text"/>
+				<input style="margin-top: 20px; font-size: 18px; border: 1px solid #d3d3d3; width: 95%; border-radius: 5px; padding: 5px 10px;" placeholder="Organization" type="text"/>
+				<input style="margin-top: 20px; font-size: 18px; border: 1px solid #d3d3d3; width: 95%; border-radius: 5px; padding: 5px 10px;" placeholder="Job Title" type="text"/>
 			</div>
 			<div style="width: 50%; display: flex; flex-direction: column;">
-				<input style="margin-top: 20px; font-size: 18px; border: none; width: 50%;" placeholder="*Last Name" type="text"/>
-				<input style="margin-top: 20px; font-size: 18px; border: none; width: 50%;" placeholder="*Work Email" type="text"/>
-				<input style="margin-top: 20px; font-size: 18px; border: none; width: 50%;" placeholder="*Phone Number" type="text"/>
+				<input style="margin-top: 20px; font-size: 18px; border: 1px solid #d3d3d3; width: 100%; border-radius: 5px; padding: 5px 10px;" placeholder="Last Name" type="text"/>
+				<input style="margin-top: 20px; font-size: 18px; border: 1px solid #d3d3d3; width: 100%; border-radius: 5px; padding: 5px 10px;" placeholder="Work Email" type="text"/>
+				<input style="margin-top: 20px; font-size: 18px; border: 1px solid #d3d3d3; width: 100%; border-radius: 5px; padding: 5px 10px;" placeholder="Phone Number" type="text"/>
 			</div>
 		</div>
 		<select class="select-custom" placeholder="*Select a topic" style="opacity: 0.6; border: none; font-size: 18px; background: none; width: 102%; margin-top: 20px; display: flex; margin-left: -8px;">
-			<option disabled selected>*Select a topic</option>
+			<option disabled selected>Select a topic</option>
 			<option>Option 1</option>
 			<option>Option 2</option>
 		</select>

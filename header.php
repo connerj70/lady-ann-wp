@@ -72,9 +72,6 @@ if ($lady_ann_description || is_customize_preview()):
 			</div>
 		</div>
 	</div>
-	<?php if(is_page('about-lady-ann') || is_page('policy')):?>
-		<div id="content" class="site-content-white">
-	<?php else: ?>
+	
 	<div id="content" class="site-content">
-	<?php endif; ?>
 		<div class="inner-site-content">
