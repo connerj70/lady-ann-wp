@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<img style="margin: 0 auto; display: flex; margin-bottom: 10px; width: 130px;" src="<?php bloginfo('template_url'); ?>/assets/logo.png" />
+		<img style="margin: 0 auto; display: flex; margin-bottom: 10px; width: 130px;" src="<?php bloginfo('template_url'); ?>/assets/faded-logo.svg" />
 		<!-- <?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -30,7 +30,7 @@
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?> -->
-		<div style="font-family: 'Montserrat', sans-serif; display:flex; align-items:center; justify-content: center; font-size: 14.5px; color: #76828a; opacity: 0.8; font-weight: 100;">Re: <?php the_title(); ?></div>
+		<div style="font-family: 'Montserrat', sans-serif; display:flex; align-items:center; justify-content: center; font-size: 20px; color: #76828a; opacity: 0.9; font-weight: 100;">Re: <?php the_title(); ?></div>
 	</header><!-- .entry-header -->
 
 	<?php lady_ann_post_thumbnail(); ?>
@@ -49,7 +49,7 @@
 					<?php the_field('From');?>
 				</h3>
 			<?php endif; ?> -->
-			<h4 style="color: #76828a; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 100; opacity: 0.75;">Dear Lady. Ann:</h4>
+			<h4 style="color: #76828a; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 100; opacity: 0.9">Dear Lady. Ann:</h4>
 			<p><?php the_field('situation_box'); ?> <p style="display:flex; justify-content: left; font-size: 14px; font-family: 'Montserrat', sans-serif;">- <?php the_field("From"); ?></p></p>
 			
 			<div style="position: relative; top: -30px; height: 50px; display: flex; align-items: center; justify-content: space-between; overflow-x: hidden; overflow-y: hidden; font-family: 'Montserrat', sans-serif;">

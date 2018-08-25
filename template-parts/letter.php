@@ -17,7 +17,7 @@
 		    <div>
 		        <a class="letter_link" href="<?php the_permalink()?>"><h1 class="letter-title"><?php the_title() ?></h1></a>
 		        	<a class="letter_link" href="<?php the_permalink()?>">
-					<h4 class="letter-date"> <span class="span-line"></span><?php the_time( get_option( 'date_format' )) ?> <span class="span-line"></span></h4>
+					<!-- <h4 class="letter-date"> <span class="span-line"></span><?php the_time( get_option( 'date_format' )) ?> <span class="span-line"></span></h4> -->
 					</a>
 		        	<a class="letter_link" href="<?php the_permalink()?>">
 						<?php echo advanced_custom_field_excerpt(); ?>

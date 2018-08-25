@@ -1259,7 +1259,7 @@ input:focus {outline:none;}
     padding: 30px;
     margin-bottom: 30px;
     box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
-    max-width: 650px;
+    /*max-width: 650px;*/
 }
 
 /* END CUSTOM SITE CONTENT ***********************************/
@@ -1431,12 +1431,12 @@ input:focus {outline:none;}
 /* CUSTOM LETTER --------------------------------------------*/
 
 .user_letters {
-    max-width: 650px;
+    /*max-width: 650px;*/
     background: #fff;
     padding: 30px;
     border-radius: 6px;
-    width: 100%;
-    min-width: 600px;
+    width: 110%;
+    /*min-width: 600px;*/
 }
 
 .entry-title {
@@ -1868,9 +1868,9 @@ POST META
 .error {
     display: block;
     width: 100%;
-    background: #B22222;
-    color: #fff;
-    padding: 5px 13px;
+    /*background: #B22222;*/
+    color: #B22222;
+    /*padding: 5px 13px;*/
     border-radius: 5px;
     border-top-left-radius: 0px;
     margin-top: 5px;

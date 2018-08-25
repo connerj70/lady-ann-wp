@@ -22,7 +22,7 @@ function advanced_custom_field_excerpt() {
 }
 
 function custom_add_google_fonts() {
- wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:300', false );
+ wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Mallanna|Montserrat', false );
  }
  add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
 

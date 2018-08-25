@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
- 
+    $.validator.messages.required = "Oops! This field is required."
     jQuery("#primaryPostForm").validate();
 
     /* Load More Post AJAX */
