@@ -71,9 +71,10 @@ get_header();
 			<span class="load-text">NEXT <img class="next-arrow" src="<?php bloginfo('template_url'); ?>/assets/right-arrow.svg" /></span>
 		</button>
 		<div class="bottom-banner">
+			
+			<div class="banner-paragraph">We use cookies to understand how you use our site and to improve your experience. This includes the personalization of content and advertising. To learn more about how we use cookies, please click here. By continuing to use our site, you accept our Terms of Use, Privacy Policy, and Cookie Policy.</div>
+			<button class="banner-btn">I Accept</button>
 			<div class="bottom-banner-close">x</div>
-			<h3>Heading</h3>
-			<div>Sub Heading</div>
 		</div>
 	</div><!-- #primary -->
 

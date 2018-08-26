@@ -783,6 +783,10 @@ a:active {
     text-decoration: none !important;
 }
 
+.post-navigation {
+    width: 110%;
+}
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -1833,21 +1837,36 @@ POST META
     width: 100%;
     position:fixed;
     bottom: 0;
-    background: #ea8b88;
-    color: #fff;
+    background: #3A3A3C;
+    color: #ea8b88;
     left: 0;
     margin: 0;
     z-index: 9999999999999999999999999999999999999999;
     padding: 10px 5%;
+    display: flex;
+}
+
+.banner-btn {
+    height: 30px;
+    margin-top: 62px;
+    margin-right: 30px;
+    width: 230px;
+    border-radius: 35px;
+}
+
+.banner-paragraph {
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 80px;
+    font-weight: 100;
 }
 
 .bottom-banner-close {
     z-index: 40;
     float: right;
     cursor: pointer;
-    font-size: 20px;
-    border: 1px solid #fff;
-    border-radius: 50%;
+    font-size: 30px;
     padding: 0px 8px;
 }
 

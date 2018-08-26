@@ -55,7 +55,7 @@ get_header();
 
 <div class="email-container">
 
-	<img class="email-banner" src="<?php bloginfo('template_url'); ?>/assets/banner.png" />
+	<img class="email-banner" src="<?php bloginfo('template_url'); ?>/assets/our-promise.png" />
 	<!-- <div style="text-align:left; width: 100%; max-width: 700px; margin-top: 10px;">
 		To send an email to Lady. Ann, fill out the form below and submit. All fields are required.
 	</div> -->
