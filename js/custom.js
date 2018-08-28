@@ -37,6 +37,10 @@ jQuery(document).ready(function($) {
         $(".bottom-banner").css("display", "none");
     });
 
+    $(".banner-btn").on('click', function() {
+        $(".bottom-banner").css("display", "none");
+    });
+
     
         $(window).scroll(function() {
                if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/' && window.location.search == "") {

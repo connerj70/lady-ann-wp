@@ -1852,13 +1852,14 @@ POST META
     margin-right: 30px;
     width: 230px;
     border-radius: 35px;
+    cursor: pointer;
 }
 
 .banner-paragraph {
     line-height: 30px;
     text-align: center;
     font-size: 16px;
-    padding: 10px 80px;
+    padding: 10px 5%;
     font-weight: 100;
 }
 
@@ -1997,6 +1998,37 @@ POST META
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.select-custom {
+      width: 100% !important;
+      padding: 15px 35px 15px 5px !important;
+      font-size: 16px !important;
+      border: 1px solid #ccc !important;
+      height: 34px !important;
+    /*  -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+    background: url(http://www.stackoverflow.com/favicon.ico) 96% / 5% no-repeat !important;*/
+}
+
+.inquiries-btn {
+    box-shadow: 1px 1px 1px #d3d3d3; 
+    padding: 15px 50px; 
+    background: #fff;
+    color: black; 
+    font-size: 18px; 
+    margin: 20px auto; 
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.inquiries-btn:hover {
+    background: #d3d3d3;
+    color: var(--pink);
+    margin-bottom: 50px;
+}
+
+
 
 
 
