@@ -60,15 +60,15 @@
 	        </div>
 	         <div class="footer_links-container footer-margin">
                     <ul>
-                        <li >About Lady. Ann</li>
-                        <li >Terms of Use</li>
-                        <li >Privacy Policy</li>
+                        <li ><a style="text-decoration: none; color: #ea8b88" href="<?php get_home_url()?>/about-lady-ann">About Lady. Ann</a></li>
+                        <li ><a style="text-decoration: none; color: #ea8b88" href="<?php get_home_url()?>/policy">Terms of Use</a></li>
+                        <li ><a style="text-decoration: none; color: #ea8b88" href="<?php get_home_url()?>/policy">Privacy Policy</a></li>
                         <li >
-                            Cookie Policy
+                            <a style="text-decoration: none; color: #ea8b88" href="<?php get_home_url()?>/policy">Cookie Policy</a>
                         </li>
                         
                         <li >
-                            Contact Us
+                            <a style="text-decoration: none; color: #ea8b88" href="<?php get_home_url()?>/inquiries">Contact Us</a>
                         </li>
                     </ul>
                 </div>

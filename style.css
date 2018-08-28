@@ -1665,6 +1665,8 @@ POST META
         box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
         z-index: 5;
         transition: all 1s;
+        height: 100%;
+        padding-bottom: 80%;
     }
 
     #primary-menu[aria-expanded = "true"] li {
