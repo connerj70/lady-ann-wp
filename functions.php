@@ -156,6 +156,16 @@ function lady_ann_widgets_init() {
 	'before_title' => '<h3 class="widget-title">',
 	'after_title' => '</h3>',
 	) );
+
+		register_sidebar( array(
+	'name' => 'Search Widget',
+	'id' => 'search-widget-1',
+	'description' => 'Appears in the secondary nav bar',
+	'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	'after_widget' => '</aside>',
+	'before_title' => '<h3 class="widget-title">',
+	'after_title' => '</h3>',
+	) );
 }
 
 add_action( 'widgets_init', 'lady_ann_widgets_init' );

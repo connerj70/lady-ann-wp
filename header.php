@@ -64,6 +64,29 @@ if ($lady_ann_description || is_customize_preview()):
 		<div class="secondary-nav">
 			<div class="secondary-nav-left">
 				<!-- <button class="custom-mail-btn">Subscribe</button> -->
+				<div id="search-widget" class="secondary">
+			<div id="search-widget1">
+			<?php
+			if(is_active_sidebar('search-widget-1')){
+			dynamic_sidebar('search-widget-1');
+			}
+			?>
+			</div>
+			<div id="footer-sidebar2">
+			<?php
+			if(is_active_sidebar('footer-sidebar-2')){
+			dynamic_sidebar('footer-sidebar-2');
+			}
+			?>
+			</div>
+			<div id="footer-sidebar3">
+			<?php
+			if(is_active_sidebar('footer-sidebar-3')){
+			dynamic_sidebar('footer-sidebar-3');
+			}
+			?>
+			</div>
+		</div>
 			</div>
 			<div class="secondary-nav-right">
 				<?php get_search_form(); ?>

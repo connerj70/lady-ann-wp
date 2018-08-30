@@ -282,6 +282,12 @@ jQuery(document).ready(function($) {
 
         });
 
+        $(".menu-toggle").on('click', function() {
+            $('.secondary-nav-container').toggle('small-nav-opacity');
+            $('.site-content').toggle("small-nav-opacity");
+            $('.site-footer').toggle("small-nav-opacity");
+        });
+
     /* scroll functions */
     // var lastScroll = 0;
     // $(window).scroll(function() {
