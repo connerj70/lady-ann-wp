@@ -161,7 +161,7 @@ function lady_ann_widgets_init() {
 	'name' => 'Search Widget',
 	'id' => 'search-widget-1',
 	'description' => 'Appears in the secondary nav bar',
-	'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	'before_widget' => '<aside style="margin: 0 !important;" id="%1$s" class="widget %2$s">',
 	'after_widget' => '</aside>',
 	'before_title' => '<h3 class="widget-title">',
 	'after_title' => '</h3>',
