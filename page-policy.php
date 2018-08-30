@@ -10,7 +10,7 @@ get_header();
 
 ?>
 
-	<div style="font-family: 'Mallanna'; width: 100%;">
+	<div style="font-family: 'Mallanna'; width: 100%; background: #fff; padding: 30px 100px; margin-bottom: 30px; margin-top: 30px;">
 		<div class="policy-tab-container">
 			<div style="cursor: pointer;" class="policy-terms policy-pink-bottom">TERMS OF USE</div>
 			<div style="cursor: pointer;" class="policy-privacy">PRIVACY POLICY</div>
