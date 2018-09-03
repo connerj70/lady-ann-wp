@@ -23,13 +23,13 @@
 				if ( !has_category("advertisement") ) :
 					?>
 					<div class="entry-meta">
-						<span class="span-line"></span>
+						<!-- <span class="span-line"></span>
 						<?php
 						the_time( get_option( 'date_format' ))
 						// lady_ann_posted_on();
 						// lady_ann_posted_by();
 						?>
-						<span class="span-line"></span>
+						<span class="span-line"></span> -->
 					</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

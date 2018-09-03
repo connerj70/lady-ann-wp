@@ -184,7 +184,7 @@ jQuery(document).ready(function($) {
         var open5 = false;
         var open6 = false;
 
-        $(".expandable-arrow-1").on("click", function() {
+        $(".policy-box-1").on("click", function() {
             
             $(".expandable-content-1").toggle(".expandable-closed");
             if(open1 === false) {
@@ -197,7 +197,7 @@ jQuery(document).ready(function($) {
             
         });
 
-        $(".expandable-arrow-2").on("click", function() {
+        $(".policy-box-2").on("click", function() {
             $(".expandable-content-2").toggle(".expandable-closed");
              if(open2 === false) {
                 $(".expandable-arrow-2").css("transform", "rotate(90deg)");
@@ -208,7 +208,7 @@ jQuery(document).ready(function($) {
             }
         });
 
-        $(".expandable-arrow-3").on("click", function() {
+        $(".policy-box-3").on("click", function() {
             $(".expandable-content-3").toggle(".expandable-closed");
              if(open3 === false) {
                 $(".expandable-arrow-3").css("transform", "rotate(90deg)");
@@ -219,7 +219,7 @@ jQuery(document).ready(function($) {
             }
         });
 
-        $(".expandable-arrow-4").on("click", function() {
+        $(".policy-box-4").on("click", function() {
             $(".expandable-content-4").toggle(".expandable-closed");
              if(open4 === false) {
                 $(".expandable-arrow-4").css("transform", "rotate(90deg)");
@@ -230,7 +230,7 @@ jQuery(document).ready(function($) {
             }
         });
 
-        $(".expandable-arrow-5").on("click", function() {
+        $(".policy-box-5").on("click", function() {
             $(".expandable-content-5").toggle(".expandable-closed");
              if(open5 === false) {
                 $(".expandable-arrow-5").css("transform", "rotate(90deg)");
@@ -241,7 +241,7 @@ jQuery(document).ready(function($) {
             }
         });
 
-        $(".expandable-arrow-6").on("click", function() {
+        $(".policy-box-6").on("click", function() {
             $(".expandable-content-6").toggle(".expandable-closed");
              if(open6 === false) {
                 $(".expandable-arrow-6").css("transform", "rotate(90deg)");
@@ -286,6 +286,7 @@ jQuery(document).ready(function($) {
             $('.secondary-nav-container').toggle('small-nav-opacity');
             $('.site-content').toggle("small-nav-opacity");
             $('.site-footer').toggle("small-nav-opacity");
+            $('.nav-menu').append()
         });
 
     /* scroll functions */

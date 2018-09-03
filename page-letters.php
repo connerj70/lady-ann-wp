@@ -37,7 +37,7 @@ get_header();
 			  	<div class="letter_container">
 			        <div>
 			            <h1 class="letter-title"><?php the_title() ?></h1>
-	        			<!-- <h4 class="letter-date"> <span class="span-line"></span><?php the_time( get_option( 'date_format' )) ?><span class="span-line"></span></h4> -->
+	        			<h4 class="letter-date"> <span class="span-line"></span><?php the_time( get_option( 'date_format' )) ?><span class="span-line"></span></h4>
 			            <h3><?php echo advanced_custom_field_excerpt(); ?></h3>
 			        </div>
 			        <footer class="entry-footer">

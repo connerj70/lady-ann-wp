@@ -1969,6 +1969,7 @@ POST META
     justify-content: space-between;
     align-items: center;
     margin-top: 80px;
+    cursor: pointer;
     /*margin-bottom: 80px;*/
 }
 
@@ -2015,13 +2016,14 @@ POST META
 
 .inquiries-btn {
     box-shadow: 1px 1px 1px #d3d3d3; 
-    padding: 15px 50px; 
+    padding: 10px 60px; 
     background: #fff;
     color: black; 
     font-size: 18px; 
     margin: 20px auto; 
     cursor: pointer;
     transition: all 0.4s;
+    border-radius: 35px;
 }
 
 .inquiries-btn:hover {
@@ -2032,6 +2034,29 @@ POST META
 
 .small-nav-opacity {
     opacity: 0.6;
+}
+
+.email_sub-container label {
+    font-size: 12px;
+}
+
+.expandable-content-1 {
+    border-bottom: 1px solid #d3d3d3;
+}
+.expandable-content-2 {
+    border-bottom: 1px solid #d3d3d3;
+}
+.expandable-content-3 {
+    border-bottom: 1px solid #d3d3d3;
+}
+.expandable-content-4 {
+    border-bottom: 1px solid #d3d3d3;
+}
+.expandable-content-5 {
+    border-bottom: 1px solid #d3d3d3;
+}
+.expandable-content-6 {
+    border-bottom: 1px solid #d3d3d3;
 }
 
 
