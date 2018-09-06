@@ -1850,9 +1850,9 @@ POST META
 
 .banner-btn {
     height: 30px;
-    margin-top: 62px;
+    margin-top: 22px;
     margin-right: 30px;
-    width: 230px;
+    width: 200px;
     border-radius: 35px;
     cursor: pointer;
 }
@@ -1860,8 +1860,8 @@ POST META
 .banner-paragraph {
     line-height: 30px;
     text-align: center;
-    font-size: 16px;
-    padding: 10px 5%;
+    font-size: 12px;
+    padding: 10px 2%;
     font-weight: 100;
 }
 
@@ -2057,6 +2057,41 @@ POST META
 }
 .expandable-content-6 {
     border-bottom: 1px solid #d3d3d3;
+}
+
+.inquiries_sub-container {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.inquiries-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.inquiries-input-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inquiries-input-1 {
+    width: 100%;
+}
+
+.inquiries-small-bottom {
+    font-size: 12px;
+}
+
+.inquiries-main-label {
+    margin-bottom: -5px;
 }
 
 
