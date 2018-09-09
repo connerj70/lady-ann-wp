@@ -74,7 +74,7 @@ get_header();
 			
 			<div class="banner-paragraph">We use cookies to understand how you use our site and to improve your experience. This includes the personalization of content and advertising. To learn more about how we use cookies, please click here. By continuing to use our site, you accept our Terms of Use, Privacy Policy, and Cookie Policy.</div>
 			<button class="banner-btn">I Accept</button>
-			<div class="bottom-banner-close">x</div>
+			<div class="bottom-banner-close"><img class="next-arrow" src="<?php bloginfo('template_url'); ?>/assets/cancel-button.png" /></div>
 		</div>
 	</div><!-- #primary -->
 
